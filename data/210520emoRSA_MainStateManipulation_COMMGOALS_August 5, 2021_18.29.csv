@@ -1,0 +1,1558 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,consent,Q129,1-1-1-feed_1,1-1-1-nice_1,2-1-1-feed_1,2-1-1-nice_1,3-1-1-feed_1,3-1-1-nice_1,4-1-1-feed_1,4-1-1-nice_1,5-1-1-feed_1,5-1-1-nice_1,6-1-1-feed_1,6-1-1-nice_1,7-1-1-feed_1,7-1-1-nice_1,8-1-1-feed_1,8-1-1-nice_1,9-1-1-feed_1,9-1-1-nice_1,10-1-1-feed_1,10-1-1-nice_1,11-1-1-feed_1,11-1-1-nice_1,12-1-1-feed_1,12-1-1-nice_1,1-1-2-feed_1,1-1-2-nice_1,2-1-2-feed_1,2-1-2-nice_1,3-1-2-feed_1,3-1-2-nice_1,4-1-2-feed_1,4-1-2-nice_1,5-1-2-feed_1,5-1-2-nice_1,6-1-2-feed_1,6-1-2-nice_1,7-1-2-feed_1,7-1-2-nice_1,8-1-2-feed_1,8-1-2-nice_1,9-1-2-feed_1,9-1-2-nice_1,10-1-2-feed_1,10-1-2-nice_1,11-1-2-feed_1,11-1-2-nice_1,12-1-2-feed_1,12-1-2-nice_1,1-1-3-feed_1,1-1-3-nice_1,2-1-3-feed_1,2-1-3-nice_1,3-1-3-feed_1,3-1-3-nice_1,4-1-3-feed_1,4-1-3-nice_1,5-1-3-feed_1,5-1-3-nice_1,6-1-3-feed_1,6-1-3-nice_1,7-1-3-feed_1,7-1-3-nice_1,8-1-3-feed_1,8-1-3-nice_1,9-1-3-feed_1,9-1-3-nice_1,10-1-3-feed_1,10-1-3-nice_1,11-1-3-feed_1,11-1-3-nice_1,12-1-3-feed_1,12-1-3-nice_1,1-2-1-feed_1,1-2-1-nice_1,2-2-1-feed_1,2-2-1-nice_1,3-2-1-feed_1,3-2-1-nice_1,4-2-1-feed_1,4-2-1-nice_1,5-2-1-feed_1,5-2-1-nice_1,6-2-1-feed_1,6-2-1-nice_1,7-2-1-feed_1,7-2-1-nice_1,8-2-1-feed_1,8-2-1-nice_1,9-2-1-feed_1,9-2-1-nice_1,10-2-1-feed_1,10-2-1-nice_1,11-2-1-feed_1,11-2-1-nice_1,12-2-1-feed_1,12-2-1-nice_1,1-2-2-feed_1,1-2-2-nice_1,2-2-2-feed_1,2-2-2-nice_1,3-2-2-feed_1,3-2-2-nice_1,4-2-2-feed_1,4-2-2-nice_1,5-2-2-feed_1,5-2-2-nice_1,6-2-2-feed_1,6-2-2-nice_1,7-2-2-feed_1,7-2-2-nice_1,8-2-2-feed_1,8-2-2-nice_1,9-2-2-feed_1,9-2-2-nice_1,10-2-2-feed_1,10-2-2-nice_1,11-2-2-feed_1,11-2-2-nice_1,12-2-2-feed_1,12-2-2-nice_1,1-2-3-feed_1,1-2-3-nice_1,2-2-3-feed_1,2-2-3-nice_1,3-2-3-feed_1,3-2-3-nice_1,4-2-3-feed_1,4-2-3-nice_1,5-2-3-feed_1,5-2-3-nice_1,6-2-3-feed_1,6-2-3-nice_1,7-2-3-feed_1,7-2-3-nice_1,8-2-3-feed_1,8-2-3-nice_1,9-2-3-feed_1,9-2-3-nice_1,10-2-3-feed_1,10-2-3-nice_1,11-2-3-feed_1,11-2-3-nice_1,12-2-3-feed_1,12-2-3-nice_1,1-3-1-feed_1,1-3-1-nice_1,2-3-1-feed_1,2-3-1-nice_1,3-3-1-feed_1,3-3-1-nice_1,4-3-1-feed_1,4-3-1-nice_1,5-3-1-feed_1,5-3-1-nice_1,6-3-1-feed_1,6-3-1-nice_1,7-3-1-feed_1,7-3-1-nice_1,8-3-1-feed_1,8-3-1-nice_1,9-3-1-feed_1,9-3-1-nice_1,10-3-1-feed_1,10-3-1-nice_1,11-3-1-feed_1,11-3-1-nice_1,12-3-1-feed_1,12-3-1-nice_1,1-3-2-feed_1,1-3-2-nice_1,2-3-2-feed_1,2-3-2-nice_1,3-3-2-feed_1,3-3-2-nice_1,4-3-2-feed_1,4-3-2-nice_1,5-3-2-feed_1,5-3-2-nice_1,6-3-2-feed_1,6-3-2-nice_1,7-3-2-feed_1,7-3-2-nice_1,8-3-2-feed_1,8-3-2-nice_1,9-3-2-feed_1,9-3-2-nice_1,10-3-2-feed_1,10-3-2-nice_1,11-3-2-feed_1,11-3-2-nice_1,12-3-2-feed_1,12-3-2-nice_1,1-3-3-feed_1,1-3-3-nice_1,2-3-3-feed_1,2-3-3-nice_1,3-3-3-feed_1,3-3-3-nice_1,4-3-3-feed_1,4-3-3-nice_1,5-3-3-feed_1,5-3-3-nice_1,6-3-3-feed_1,6-3-3-nice_1,7-3-3-feed_1,7-3-3-nice_1,8-3-3-feed_1,8-3-3-nice_1,9-3-3-feed_1,9-3-3-nice_1,10-3-3-feed_1,10-3-3-nice_1,11-3-3-feed_1,11-3-3-nice_1,12-3-3-feed_1,12-3-3-nice_1,1-4-1-feed_1,1-4-1-nice_1,2-4-1-feed_1,2-4-1-nice_1,3-4-1-feed_1,3-4-1-nice_1,4-4-1-feed_1,4-4-1-nice_1,5-4-1-feed_1,5-4-1-nice_1,6-4-1-feed_1,6-4-1-nice_1,7-4-1-feed_1,7-4-1-nice_1,8-4-1-feed_1,8-4-1-nice_1,9-4-1-feed_1,9-4-1-nice_1,10-4-1-feed_1,10-4-1-nice_1,11-4-1-feed_1,11-4-1-nice_1,12-4-1-feed_1,12-4-1-nice_1,1-4-2-feed_1,1-4-2-nice_1,2-4-2-feed_1,2-4-2-nice_1,3-4-2-feed_1,3-4-2-nice_1,4-4-2-feed_1,4-4-2-nice_1,5-4-2-feed_1,5-4-2-nice_1,6-4-2-feed_1,6-4-2-nice_1,7-4-2-feed_1,7-4-2-nice_1,8-4-2-feed_1,8-4-2-nice_1,9-4-2-feed_1,9-4-2-nice_1,10-4-2-feed_1,10-4-2-nice_1,11-4-2-feed_1,11-4-2-nice_1,12-4-2-feed_1,12-4-2-nice_1,1-4-3-feed_1,1-4-3-nice_1,2-4-3-feed_1,2-4-3-nice_1,3-4-3-feed_1,3-4-3-nice_1,4-4-3-feed_1,4-4-3-nice_1,5-4-3-feed_1,5-4-3-nice_1,6-4-3-feed_1,6-4-3-nice_1,7-4-3-feed_1,7-4-3-nice_1,8-4-3-feed_1,8-4-3-nice_1,9-4-3-feed_1,9-4-3-nice_1,10-4-3-feed_1,10-4-3-nice_1,11-4-3-feed_1,11-4-3-nice_1,12-4-3-feed_1,12-4-3-nice_1,Check1,Check2,Check3,Check4,Q361,Q362,Q362_3_TEXT,Q363,Q363_9_TEXT,Q364,Q365,Q1213,Face1,Face2,Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,1-1,1-2,1-3,2-1,2-2,2-3,3-1,3-2,3-3,4-1,4-2,4-3
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Consent Statement
+By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Michael C. Frank at mcfrank@stanford.edu. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.",Please enter your unique Prolific worker ID:,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,How likely do you think Alex's goal was to provide accurate feedback?,How likely do you think Alex's goal was to be nice?,How likely do you think Hayden's goal was to provide accurate feedback?,How likely do you think Hayden's goal was to be nice?,How likely do you think Sam's goal was to provide accurate feedback?,How likely do you think Sam's goal was to be nice?,How likely do you think Morgan's goal was to provide accurate feedback?,How likely do you think Morgan's goal was to be nice?,How likely do you think Bailey's goal was to provide accurate feedback?,How likely do you think Bailey's goal was to be nice?,How likely do you think Jo's goal was to provide accurate feedback?,How likely do you think Jo's goal was to be nice?,How likely do you think Taylor's goal was to provide accurate feedback?,How likely do you think Taylor's goal was to be nice?,How likely do you think Avery's goal was to provide accurate feedback?,How likely do you think Avery's goal was to be nice?,How likely do you think Declan's goal was to provide accurate feedback?,How likely do you think Declan's goal was to be nice?,How likely do you think Pat's goal was to provide accurate feedback?,How likely do you think Pat's goal was to be nice?,How likely do you think Adrian's goal was to provide accurate feedback?,How likely do you think Adrian's goal was to be nice?,How likely do you think Charlie's goal was to provide accurate feedback?,How likely do you think Charlie's goal was to be nice?,"Just to check, the letters ""S"" are forming what letter in the image below?","Just to check, the letters ""U"" are forming what letter in the image below?","Just to check, the letters ""L"" are forming what letter in the image below?","Just to check, the letters ""O"" are forming what letter in the image below?",Age:,Gender: - Selected Choice,Gender: - Other (please specify) - Text,Race: - Selected Choice,Race: - Other (please specify) - Text,Native language:,Was there anything about this survey that was unclear? Did you have any difficulties while completing the survey?,Do you have any other feedback or anything else you want to let us know?,Face1,Face2,Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,1-1,1-2,1-3,2-1,2-2,2-3,3-1,3-2,3-3,4-1,4-2,4-3
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID358""}","{""ImportId"":""QID150_TEXT""}","{""ImportId"":""QID326_4""}","{""ImportId"":""QID327_1""}","{""ImportId"":""QID438_4""}","{""ImportId"":""QID439_1""}","{""ImportId"":""QID510_4""}","{""ImportId"":""QID511_1""}","{""ImportId"":""QID582_4""}","{""ImportId"":""QID583_1""}","{""ImportId"":""QID654_4""}","{""ImportId"":""QID655_1""}","{""ImportId"":""QID726_4""}","{""ImportId"":""QID727_1""}","{""ImportId"":""QID798_4""}","{""ImportId"":""QID799_1""}","{""ImportId"":""QID870_4""}","{""ImportId"":""QID871_1""}","{""ImportId"":""QID942_4""}","{""ImportId"":""QID943_1""}","{""ImportId"":""QID1014_4""}","{""ImportId"":""QID1015_1""}","{""ImportId"":""QID1086_4""}","{""ImportId"":""QID1087_1""}","{""ImportId"":""QID1158_4""}","{""ImportId"":""QID1159_1""}","{""ImportId"":""QID372_4""}","{""ImportId"":""QID373_1""}","{""ImportId"":""QID444_4""}","{""ImportId"":""QID445_1""}","{""ImportId"":""QID516_4""}","{""ImportId"":""QID517_1""}","{""ImportId"":""QID588_4""}","{""ImportId"":""QID589_1""}","{""ImportId"":""QID660_4""}","{""ImportId"":""QID661_1""}","{""ImportId"":""QID732_4""}","{""ImportId"":""QID733_1""}","{""ImportId"":""QID804_4""}","{""ImportId"":""QID805_1""}","{""ImportId"":""QID876_4""}","{""ImportId"":""QID877_1""}","{""ImportId"":""QID948_4""}","{""ImportId"":""QID949_1""}","{""ImportId"":""QID1020_4""}","{""ImportId"":""QID1021_1""}","{""ImportId"":""QID1092_4""}","{""ImportId"":""QID1093_1""}","{""ImportId"":""QID1164_4""}","{""ImportId"":""QID1165_1""}","{""ImportId"":""QID378_4""}","{""ImportId"":""QID379_1""}","{""ImportId"":""QID450_4""}","{""ImportId"":""QID451_1""}","{""ImportId"":""QID522_4""}","{""ImportId"":""QID523_1""}","{""ImportId"":""QID594_4""}","{""ImportId"":""QID595_1""}","{""ImportId"":""QID666_4""}","{""ImportId"":""QID667_1""}","{""ImportId"":""QID738_4""}","{""ImportId"":""QID739_1""}","{""ImportId"":""QID810_4""}","{""ImportId"":""QID811_1""}","{""ImportId"":""QID882_4""}","{""ImportId"":""QID883_1""}","{""ImportId"":""QID954_4""}","{""ImportId"":""QID955_1""}","{""ImportId"":""QID1026_4""}","{""ImportId"":""QID1027_1""}","{""ImportId"":""QID1098_4""}","{""ImportId"":""QID1099_1""}","{""ImportId"":""QID1170_4""}","{""ImportId"":""QID1171_1""}","{""ImportId"":""QID384_4""}","{""ImportId"":""QID385_1""}","{""ImportId"":""QID456_4""}","{""ImportId"":""QID457_1""}","{""ImportId"":""QID528_4""}","{""ImportId"":""QID529_1""}","{""ImportId"":""QID600_4""}","{""ImportId"":""QID601_1""}","{""ImportId"":""QID672_4""}","{""ImportId"":""QID673_1""}","{""ImportId"":""QID744_4""}","{""ImportId"":""QID745_1""}","{""ImportId"":""QID816_4""}","{""ImportId"":""QID817_1""}","{""ImportId"":""QID888_4""}","{""ImportId"":""QID889_1""}","{""ImportId"":""QID960_4""}","{""ImportId"":""QID961_1""}","{""ImportId"":""QID1032_4""}","{""ImportId"":""QID1033_1""}","{""ImportId"":""QID1104_4""}","{""ImportId"":""QID1105_1""}","{""ImportId"":""QID1176_4""}","{""ImportId"":""QID1177_1""}","{""ImportId"":""QID390_4""}","{""ImportId"":""QID391_1""}","{""ImportId"":""QID462_4""}","{""ImportId"":""QID463_1""}","{""ImportId"":""QID534_4""}","{""ImportId"":""QID535_1""}","{""ImportId"":""QID606_4""}","{""ImportId"":""QID607_1""}","{""ImportId"":""QID678_4""}","{""ImportId"":""QID679_1""}","{""ImportId"":""QID750_4""}","{""ImportId"":""QID751_1""}","{""ImportId"":""QID822_4""}","{""ImportId"":""QID823_1""}","{""ImportId"":""QID894_4""}","{""ImportId"":""QID895_1""}","{""ImportId"":""QID966_4""}","{""ImportId"":""QID967_1""}","{""ImportId"":""QID1038_4""}","{""ImportId"":""QID1039_1""}","{""ImportId"":""QID1110_4""}","{""ImportId"":""QID1111_1""}","{""ImportId"":""QID1182_4""}","{""ImportId"":""QID1183_1""}","{""ImportId"":""QID396_4""}","{""ImportId"":""QID397_1""}","{""ImportId"":""QID468_4""}","{""ImportId"":""QID469_1""}","{""ImportId"":""QID540_4""}","{""ImportId"":""QID541_1""}","{""ImportId"":""QID612_4""}","{""ImportId"":""QID613_1""}","{""ImportId"":""QID684_4""}","{""ImportId"":""QID685_1""}","{""ImportId"":""QID756_4""}","{""ImportId"":""QID757_1""}","{""ImportId"":""QID828_4""}","{""ImportId"":""QID829_1""}","{""ImportId"":""QID900_4""}","{""ImportId"":""QID901_1""}","{""ImportId"":""QID972_4""}","{""ImportId"":""QID973_1""}","{""ImportId"":""QID1044_4""}","{""ImportId"":""QID1045_1""}","{""ImportId"":""QID1116_4""}","{""ImportId"":""QID1117_1""}","{""ImportId"":""QID1188_4""}","{""ImportId"":""QID1189_1""}","{""ImportId"":""QID402_4""}","{""ImportId"":""QID403_1""}","{""ImportId"":""QID474_4""}","{""ImportId"":""QID475_1""}","{""ImportId"":""QID546_4""}","{""ImportId"":""QID547_1""}","{""ImportId"":""QID618_4""}","{""ImportId"":""QID619_1""}","{""ImportId"":""QID690_4""}","{""ImportId"":""QID691_1""}","{""ImportId"":""QID762_4""}","{""ImportId"":""QID763_1""}","{""ImportId"":""QID834_4""}","{""ImportId"":""QID835_1""}","{""ImportId"":""QID906_4""}","{""ImportId"":""QID907_1""}","{""ImportId"":""QID978_4""}","{""ImportId"":""QID979_1""}","{""ImportId"":""QID1050_4""}","{""ImportId"":""QID1051_1""}","{""ImportId"":""QID1122_4""}","{""ImportId"":""QID1123_1""}","{""ImportId"":""QID1194_4""}","{""ImportId"":""QID1195_1""}","{""ImportId"":""QID408_4""}","{""ImportId"":""QID409_1""}","{""ImportId"":""QID480_4""}","{""ImportId"":""QID481_1""}","{""ImportId"":""QID552_4""}","{""ImportId"":""QID553_1""}","{""ImportId"":""QID624_4""}","{""ImportId"":""QID625_1""}","{""ImportId"":""QID696_4""}","{""ImportId"":""QID697_1""}","{""ImportId"":""QID768_4""}","{""ImportId"":""QID769_1""}","{""ImportId"":""QID840_4""}","{""ImportId"":""QID841_1""}","{""ImportId"":""QID912_4""}","{""ImportId"":""QID913_1""}","{""ImportId"":""QID984_4""}","{""ImportId"":""QID985_1""}","{""ImportId"":""QID1056_4""}","{""ImportId"":""QID1057_1""}","{""ImportId"":""QID1128_4""}","{""ImportId"":""QID1129_1""}","{""ImportId"":""QID1200_4""}","{""ImportId"":""QID1201_1""}","{""ImportId"":""QID414_4""}","{""ImportId"":""QID415_1""}","{""ImportId"":""QID486_4""}","{""ImportId"":""QID487_1""}","{""ImportId"":""QID558_4""}","{""ImportId"":""QID559_1""}","{""ImportId"":""QID630_4""}","{""ImportId"":""QID631_1""}","{""ImportId"":""QID702_4""}","{""ImportId"":""QID703_1""}","{""ImportId"":""QID774_4""}","{""ImportId"":""QID775_1""}","{""ImportId"":""QID846_4""}","{""ImportId"":""QID847_1""}","{""ImportId"":""QID918_4""}","{""ImportId"":""QID919_1""}","{""ImportId"":""QID990_4""}","{""ImportId"":""QID991_1""}","{""ImportId"":""QID1062_4""}","{""ImportId"":""QID1063_1""}","{""ImportId"":""QID1134_4""}","{""ImportId"":""QID1135_1""}","{""ImportId"":""QID1206_4""}","{""ImportId"":""QID1207_1""}","{""ImportId"":""QID420_4""}","{""ImportId"":""QID421_1""}","{""ImportId"":""QID492_4""}","{""ImportId"":""QID493_1""}","{""ImportId"":""QID564_4""}","{""ImportId"":""QID565_1""}","{""ImportId"":""QID636_4""}","{""ImportId"":""QID637_1""}","{""ImportId"":""QID708_4""}","{""ImportId"":""QID709_1""}","{""ImportId"":""QID780_4""}","{""ImportId"":""QID781_1""}","{""ImportId"":""QID852_4""}","{""ImportId"":""QID853_1""}","{""ImportId"":""QID924_4""}","{""ImportId"":""QID925_1""}","{""ImportId"":""QID996_4""}","{""ImportId"":""QID997_1""}","{""ImportId"":""QID1068_4""}","{""ImportId"":""QID1069_1""}","{""ImportId"":""QID1140_4""}","{""ImportId"":""QID1141_1""}","{""ImportId"":""QID1212_4""}","{""ImportId"":""QID1213_1""}","{""ImportId"":""QID426_4""}","{""ImportId"":""QID427_1""}","{""ImportId"":""QID498_4""}","{""ImportId"":""QID499_1""}","{""ImportId"":""QID570_4""}","{""ImportId"":""QID571_1""}","{""ImportId"":""QID642_4""}","{""ImportId"":""QID643_1""}","{""ImportId"":""QID714_4""}","{""ImportId"":""QID715_1""}","{""ImportId"":""QID786_4""}","{""ImportId"":""QID787_1""}","{""ImportId"":""QID858_4""}","{""ImportId"":""QID859_1""}","{""ImportId"":""QID930_4""}","{""ImportId"":""QID931_1""}","{""ImportId"":""QID1002_4""}","{""ImportId"":""QID1003_1""}","{""ImportId"":""QID1074_4""}","{""ImportId"":""QID1075_1""}","{""ImportId"":""QID1146_4""}","{""ImportId"":""QID1147_1""}","{""ImportId"":""QID1218_4""}","{""ImportId"":""QID1219_1""}","{""ImportId"":""QID432_4""}","{""ImportId"":""QID433_1""}","{""ImportId"":""QID504_4""}","{""ImportId"":""QID505_1""}","{""ImportId"":""QID576_4""}","{""ImportId"":""QID577_1""}","{""ImportId"":""QID648_4""}","{""ImportId"":""QID649_1""}","{""ImportId"":""QID720_4""}","{""ImportId"":""QID721_1""}","{""ImportId"":""QID792_4""}","{""ImportId"":""QID793_1""}","{""ImportId"":""QID864_4""}","{""ImportId"":""QID865_1""}","{""ImportId"":""QID936_4""}","{""ImportId"":""QID937_1""}","{""ImportId"":""QID1008_4""}","{""ImportId"":""QID1009_1""}","{""ImportId"":""QID1080_4""}","{""ImportId"":""QID1081_1""}","{""ImportId"":""QID1152_4""}","{""ImportId"":""QID1153_1""}","{""ImportId"":""QID1224_4""}","{""ImportId"":""QID1225_1""}","{""ImportId"":""QID1226_TEXT""}","{""ImportId"":""QID1227_TEXT""}","{""ImportId"":""QID1228_TEXT""}","{""ImportId"":""QID1229_TEXT""}","{""ImportId"":""QID361_TEXT""}","{""ImportId"":""QID362""}","{""ImportId"":""QID362_3_TEXT""}","{""ImportId"":""QID363""}","{""ImportId"":""QID363_9_TEXT""}","{""ImportId"":""QID364_TEXT""}","{""ImportId"":""QID365_TEXT""}","{""ImportId"":""QID1234_TEXT""}","{""ImportId"":""Face1""}","{""ImportId"":""Face2""}","{""ImportId"":""Face3""}","{""ImportId"":""Face4""}","{""ImportId"":""Face5""}","{""ImportId"":""Face6""}","{""ImportId"":""Face7""}","{""ImportId"":""Face8""}","{""ImportId"":""Face9""}","{""ImportId"":""Face10""}","{""ImportId"":""Face11""}","{""ImportId"":""Face12""}","{""ImportId"":""1-1""}","{""ImportId"":""1-2""}","{""ImportId"":""1-3""}","{""ImportId"":""2-1""}","{""ImportId"":""2-2""}","{""ImportId"":""2-3""}","{""ImportId"":""3-1""}","{""ImportId"":""3-2""}","{""ImportId"":""3-3""}","{""ImportId"":""4-1""}","{""ImportId"":""4-2""}","{""ImportId"":""4-3""}"
+2021-07-15 12:23:09,2021-07-15 12:25:22,Survey Preview,,100,133,True,2021-07-15 12:25:23,R_3G2jQp1mwYT3GGb,,,,,37.39739990234375,-122.00099945068359375,preview,EN,I have read the consent statement and I agree to participate in the study.,test,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,U,,,,,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-16 15:44:36,2021-07-16 15:45:01,IP Address,71.204.171.245,23,25,False,2021-07-23 15:45:02,R_2bPFtVV3EPsK0DM,,,,,,,anonymous,EN,I have read the consent statement and I agree to participate in the study.,test,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+2021-07-18 15:30:24,2021-07-18 15:35:03,Spam,128.12.92.87,21,279,False,2021-07-25 15:35:06,R_2XaOgXZ7WtN8L9p,,,,,,,anonymous,EN,I have read the consent statement and I agree to participate in the study.,xx,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+2021-07-31 12:12:07,2021-07-31 12:15:53,IP Address,73.69.70.186,100,226,True,2021-07-31 12:15:56,R_1GvNFqVJn7xQsBu,,,,,42.34979248046875,-71.07649993896484375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61058c5920f49eb5e061e433,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,H,L,o,U,21,Female,,White,,English,no,no,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:11:47,2021-07-31 12:19:29,IP Address,67.255.219.116,100,462,True,2021-07-31 12:19:30,R_9pigUxLPdyxWn1n,,,,,44.096893310546875,-70.18630218505859375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61056b1142672f37e2e687ec,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,H,L,O,U,38,Female,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:12:29,2021-07-31 12:20:37,IP Address,68.3.184.179,100,488,True,2021-07-31 12:20:39,R_27WLi535zK3bFAb,,,,,33.8144989013671875,-112.1177978515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610587f67d7174e0f0411deb,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,H,L,O,U,31,Female,,White,,English,No,"Just that a lot of it is trying to guess what morals that person has by looking at a photo which can be hard to do. ",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:26:10,2021-07-31 12:31:23,IP Address,70.180.175.169,100,312,True,2021-07-31 12:31:24,R_3PzrWsX4hnPSbzw,,,,,36.172393798828125,-115.0677032470703125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610587d63a8932ac5c188b79,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,H,L,O,U,26,Female,,White,,English,"Not at all. The instructions were very clear on what was being looked for. ",N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:26:32,2021-07-31 12:31:41,IP Address,174.205.206.127,100,308,True,2021-07-31 12:31:42,R_305ER9CYsuL7n8F,,,,,33.3874053955078125,-112.09980010986328125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610586858d0bc7e1a6d5643b,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,H,L,O,U,20,Male,,"Hispanic, Latino, Latina, or Latinx",,English,N/A,N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:24:53,2021-07-31 12:32:20,IP Address,73.7.190.114,100,446,True,2021-07-31 12:32:21,R_3h6mj0uSUIyKEMK,,,,,33.9329986572265625,-84.60399627685546875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6104d203a90a285077fc90bf,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,H,L,O,U,18,Female,,White,,English,no,no,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:25:08,2021-07-31 12:32:35,IP Address,107.13.142.196,100,447,True,2021-07-31 12:32:37,R_1H785lhcOi4BZMC,,,,,35.9806060791015625,-78.84259796142578125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6101e6ddf729b94b5b30f431,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,H,L,O,U,47,Male,,White,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:26:30,2021-07-31 12:33:36,IP Address,73.108.49.219,100,426,True,2021-07-31 12:33:37,R_3JiQEyrzDmduGTn,,,,,35.9243011474609375,-83.99649810791015625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61037a7204c3bfc31c1289dd,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,H,L,O,U,25,Female,,White,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:27:54,2021-07-31 12:33:53,IP Address,66.66.144.14,100,359,True,2021-07-31 12:33:54,R_1hMPROCFxMaKhgn,,,,,43.220703125,-77.5991973876953125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61058a30aa4c69f554ad5370,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,U,27,Female,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:27:57,2021-07-31 12:34:25,IP Address,174.250.148.86,100,388,True,2021-07-31 12:34:25,R_6VVZ7k9emFfXSlb,,,,,35.089202880859375,-80.81939697265625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61056f2f4a382c8dd9fea749,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,H,L,O,U,46,Male,,White,,"English ",No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:31:26,2021-07-31 12:34:30,IP Address,73.200.249.65,100,183,True,2021-07-31 12:34:31,R_3Mli1V93XOq6fk1,,,,,39.6248931884765625,-75.8350982666015625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fcda4d71a6dd1ed02b571b,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,U,18,Female,,White,,"English ",No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:25:56,2021-07-31 12:35:12,IP Address,174.196.198.3,100,556,True,2021-07-31 12:35:14,R_BDhGedXNGOJWMox,,,,,42.346405029296875,-71.097503662109375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6105818275171b0d910126df,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,H,L,O,U,21,Male,,White,,English,The survey was clear,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:29:01,2021-07-31 12:35:27,IP Address,74.140.60.90,100,386,True,2021-07-31 12:35:29,R_10YFckbkEkEz8op,,,,,40.293792724609375,-83.07440185546875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60f0c402ebeb85ee069a8f98,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,H,L,0,U,24,Non-binary,,White,,English,No.,Thank you.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:29:39,2021-07-31 12:36:04,IP Address,98.149.49.38,100,385,True,2021-07-31 12:36:06,R_a4MSL19YbUzJjQ5,,,,,33.751800537109375,-117.993194580078125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6100a1e7095b4ef691794fe5,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,H,L,O,U,26,Female,,Prefer not to respond,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:31:25,2021-07-31 12:36:13,IP Address,67.171.234.105,100,288,True,2021-07-31 12:36:14,R_2VmzjKPY8E9za1j,,,,,45.6952056884765625,-122.6540985107421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd040be56a756dea4a064c,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,H,L,O,U,36,Female,,American Indian or Alaska Native,,"English ",No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:27:48,2021-07-31 12:37:50,IP Address,73.183.196.121,100,602,True,2021-07-31 12:37:51,R_sdl5x25QdxO9FZf,,,,,29.702301025390625,-95.459197998046875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61033a34979a73d9c61b50dc,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,H,L,O,U,36,Male,,Black or African American,,English,No,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:32:18,2021-07-31 12:38:02,IP Address,68.54.112.187,100,343,True,2021-07-31 12:38:03,R_1PRAT9K18aslIf5,,,,,39.7953948974609375,-86.26580047607421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fef94879668452db4fc079,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",H,L,O,U,20,Female,,White,,english,no difficulties,no feedback,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:34:33,2021-07-31 12:38:36,IP Address,70.119.198.179,100,242,True,2021-07-31 12:38:37,R_28AqaKV3GEeIDCk,,,,,32.879302978515625,-96.6374969482421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61058dd37423c9049056dd96,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,H,L,O,U,21,Male,,White,,english,no,no,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:31:14,2021-07-31 12:39:04,IP Address,70.171.50.254,100,470,True,2021-07-31 12:39:05,R_279T3MeKb8xZnZ0,,,,,29.613800048828125,-82.3860015869140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd97a460a57522230abd7d,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,H,L,O,U,23,Female,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:35:25,2021-07-31 12:39:44,IP Address,68.3.133.251,100,259,True,2021-07-31 12:39:45,R_3s4SpzrebqMIX6u,,,,,33.43060302734375,-111.92559814453125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fdccd59a2b79c4fc9d5fd5,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,H,L,O,U,23,Female,,White,,English,No,"No ",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:31:13,2021-07-31 12:39:45,IP Address,23.119.112.96,100,511,True,2021-07-31 12:39:46,R_1r3ukRMjwrgKTZi,,,,,41.685302734375,-86.23290252685546875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61058600025ac2074b04666c,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,H,L,O,U,23,Male,,White,,"English ",,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:35:36,2021-07-31 12:40:18,IP Address,73.152.238.90,100,281,True,2021-07-31 12:40:18,R_1LiIKemFZEPoLKi,,,,,37.253204345703125,-80.43470001220703125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd0c48af8b0126bace0342,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,U,21,Female,,White,,English,No difficulties,none,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:31:36,2021-07-31 12:40:27,IP Address,75.128.7.145,100,531,True,2021-07-31 12:40:28,R_32Q6QrtK17BWhQs,,,,,35.166107177734375,-120.4651031494140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61032f7fa26948973402506a,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely","Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,H,L,O,U,31,Male,,Black or African American,,"English ","Not at all ",None,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:35:19,2021-07-31 12:40:32,IP Address,24.118.77.241,100,312,True,2021-07-31 12:40:33,R_28RIl29cNyjGnov,,,,,45.0800018310546875,-93.02269744873046875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff50619defca71241bc073,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,H,L,O,U,18,Female,,White,,English,no,no,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:38:15,2021-07-31 12:41:21,IP Address,184.190.136.87,100,186,True,2021-07-31 12:41:22,R_1hBhAx6YPPwFz0j,,,,,33.272705078125,-111.82779693603515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6100b9bc3ca21392600e905c,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",H,L,O,U,19,Male,,"Asian or Asian American,White",,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:33:46,2021-07-31 12:43:08,IP Address,70.121.234.247,100,561,True,2021-07-31 12:43:08,R_3dQvkGIEX4H5oyG,,,,,30.1387939453125,-97.2920989990234375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ee55fe25b35e7375a5681b,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,H,L,O,U,18,Female,,"Hispanic, Latino, Latina, or Latinx",,English,No,N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:07,2021-07-31 12:43:15,IP Address,216.68.217.134,100,247,True,2021-07-31 12:43:15,R_3htovOSCg4xHkZT,,,,,39.0697021484375,-84.29160308837890625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60b0072eea28b6d8d0ca0a9f,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely","Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,H,L,O,U,21,Male,,White,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:34:19,2021-07-31 12:43:43,IP Address,209.152.96.166,100,563,True,2021-07-31 12:43:43,R_XTwlHwTPvnIRYcx,,,,,41.014892578125,-91.95880126953125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6101e064def03ff25e35b8f8,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,H,L,O,U,31,Male,,Other (please specify),Mixed Native Latino,Spanish,no.,no.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:38:37,2021-07-31 12:43:56,IP Address,47.222.185.85,100,318,True,2021-07-31 12:43:57,R_Rhp4jl0ngFchElz,,,,,31.7256927490234375,-94.6212005615234375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6103507265f8af9efa70fb79,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely","Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,H,L,O,U,35,Female,,White,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:38,2021-07-31 12:44:23,IP Address,107.77.208.84,100,284,True,2021-07-31 12:44:25,R_0xHutydACOM4zw5,,,,,41.87640380859375,-87.6132965087890625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61004a050fcb6d4a3227fdd6,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,H,L,O,U,19,Female,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:37:33,2021-07-31 12:44:26,IP Address,170.103.6.82,100,412,True,2021-07-31 12:44:26,R_pR791qGrikc7JId,,,,,42.578399658203125,-84.45510101318359375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6105834ab2c21fdef3c1bdb8,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,H,L,O,U,19,Female,,White,,English,no,no,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:45,2021-07-31 12:44:34,IP Address,50.36.165.68,100,288,True,2021-07-31 12:44:34,R_3PiuBanfcEi0gRi,,,,,44.9915008544921875,-84.1488037109375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff3112f9f9d8e6a4fb2951,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,H,L,O,U,20,Female,,White,,English,No,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:38:46,2021-07-31 12:45:06,IP Address,174.192.139.243,100,379,True,2021-07-31 12:45:07,R_2wHK5vGpMAwZSkN,,,,,42.273895263671875,-89.04740142822265625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fced7b594af9363fc687d4,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,H,L,O,U,19,Female,,White,,English,"No, it was also fun and challenging to think about.",I enjoyed this survey!,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:27,2021-07-31 12:45:08,IP Address,67.171.180.52,100,341,True,2021-07-31 12:45:10,R_sqaKb0mEyvNpEVr,,,,,45.5032958984375,-122.7743988037109375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fcd86e09dd1975a11f88a6,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,H,L,O,U,18,Female,,White,,"English ",no,good job,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:13,2021-07-31 12:45:13,IP Address,73.220.175.167,100,360,True,2021-07-31 12:45:14,R_9H3nnUhxX8s6c1P,,,,,38.4272003173828125,-121.4420013427734375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,5afcc4b056fe2c000168f3c5,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely","Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,H,L,O,U,30,Female,,"Hispanic, Latino, Latina, or Latinx",,English,N/A,N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:40:43,2021-07-31 12:45:42,IP Address,74.140.196.255,100,299,True,2021-07-31 12:45:43,R_yBYeI9RGLn0V21j,,,,,39.8025970458984375,-84.01540374755859375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd7685fdce9631ec15960f,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely","Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,H,L,O,"U ",26,Female,,White,,English,N/A,N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:43:29,2021-07-31 12:46:27,IP Address,98.39.85.250,100,177,True,2021-07-31 12:46:27,R_RV9NuXw98JFNrcR,,,,,29.5720062255859375,-95.54000091552734375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd10386f221d1e37232b76,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,H,L,O,U,18,Female,,Asian or Asian American,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:40:15,2021-07-31 12:46:28,IP Address,76.121.122.161,100,373,True,2021-07-31 12:46:28,R_1DwhYTQEbnJlAS3,,,,,48.864501953125,-122.59529876708984375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff36fa2d59721571fd15c2,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,H,L,O,U,18,Female,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:25,2021-07-31 12:47:11,IP Address,107.77.237.115,100,465,True,2021-07-31 12:47:12,R_2dRYuLAD0YkUG9L,,,,,37.751007080078125,-97.82199859619140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ffa9a117e6c8dc1e9ebee2,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely","Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,H,L,O,U,18,Female,,White,,English,"No this survey was clear. The instructions were easy to follow. ",Interesting survey!,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:40:44,2021-07-31 12:47:40,IP Address,35.141.123.42,100,416,True,2021-07-31 12:47:41,R_3m2a6QsyepRpbut,,,,,28.45379638671875,-81.46739959716796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61043440199e3741d2f1f50e,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,H,L,O,U,29,Male,,White,,,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:33:58,2021-07-31 12:47:59,IP Address,72.184.173.74,100,840,True,2021-07-31 12:48:00,R_2EaGgFwhPPD3VBW,,,,,27.8672943115234375,-82.70909881591796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fedfef32d09be60d8de34e,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,H,None,O,U,38,Male,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:41:55,2021-07-31 12:48:03,IP Address,68.197.71.110,100,368,True,2021-07-31 12:48:04,R_1GWwuPrmgS1ooTa,,,,,40.5175018310546875,-74.39910125732421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd690634ee5940500d4a52,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,H,L,O,U,20,Male,,Black or African American,,English,"None ",None,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:43:42,2021-07-31 12:48:07,IP Address,71.12.39.243,100,264,True,2021-07-31 12:48:08,R_2chZv407Ny0vERZ,,,,,33.14520263671875,-97.0699005126953125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102d141fbe0cdb19717f5eb,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely","Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,H,L,O,U,20,Female,,White,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:40:09,2021-07-31 12:48:15,IP Address,68.112.156.70,100,486,True,2021-07-31 12:48:16,R_1FfAoMJQ3aEBFcO,,,,,45.2010955810546875,-93.46939849853515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61017aec4ec9c6df45643127,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,H,L,O,U,46,Male,,White,,English,no thanks,it's good,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:34:51,2021-07-31 12:48:16,IP Address,162.232.166.70,100,804,True,2021-07-31 12:48:17,R_2chgiDYdKvxv3SJ,,,,,35.672393798828125,-97.74069976806640625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fcf573243eaaa0e0eee668,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,H,L,O,U,42,Female,,White,,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:41:56,2021-07-31 12:48:29,IP Address,68.99.160.110,100,392,True,2021-07-31 12:48:29,R_4NPnwnXnJeYYCZP,,,,,37.1100006103515625,-76.51149749755859375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610374613138abbd7a0ca36c,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,H,L,O,U,19,Male,,White,,English,No/,No.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:42:17,2021-07-31 12:48:40,IP Address,70.181.136.94,100,383,True,2021-07-31 12:48:40,R_0ChtPyLYvkwKRUZ,,,,,33.1165008544921875,-117.184600830078125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61058c26024f1e73fdec72ec,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,u,60,Male,,Other (please specify),Asian,Chinese,n/a,n/a,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:43:12,2021-07-31 12:49:03,IP Address,98.168.146.154,100,350,True,2021-07-31 12:49:03,R_3hmyfiC7Ty1rcM2,,,,,35.62109375,-97.47570037841796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61009954973fdb40344de62d,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,H,L,O,U,18,Male,,Asian or Asian American,,English,N/A,N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:45:25,2021-07-31 12:49:51,IP Address,73.251.73.197,100,266,True,2021-07-31 12:49:51,R_1pRQFXeHLDLT3MF,,,,,36.68829345703125,-79.868499755859375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61023c4e7561c0a46ac29e08,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",H,L,"O ","U ",20,Male,,"Black or African American,White",,English,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:44,2021-07-31 12:50:18,IP Address,173.56.53.227,100,634,True,2021-07-31 12:50:19,R_WkZmRhqdLigwrVT,,,,,40.70989990234375,-73.95909881591796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fdbbbaa77d40705341b211,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,H,L,O,U,21,Female,,White,,English,"I sometimes think that a person's facial expressions don't necessarily accurately convey their intentions which made me a little unsure of how to answer a few times because there was no real factual information involved, it was completely based on face value impressions. ",,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:45:16,2021-07-31 12:50:24,IP Address,184.98.181.108,100,308,True,2021-07-31 12:50:26,R_WCjxZcE07WH3uoh,,,,,33.3874969482421875,-111.85070037841796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe7b2b88c31bb7cf0d2457,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,H,L,O,U,18,Female,,Native Hawaiian or Other Pacific Islander,,"English ",,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:37:58,2021-07-31 12:50:42,IP Address,69.130.142.117,100,764,True,2021-07-31 12:50:43,R_3nurgp9z6hu3EO9,,,,,35.597198486328125,-87.85320281982421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6104b7e8cd97497d5ceed7d5,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,H,L,O,U,23,Female,,White,,"English ",No,"Nope, thank you. ",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:44:00,2021-07-31 12:51:10,IP Address,172.58.56.190,100,430,True,2021-07-31 12:51:11,R_2OGyCQbrB6S34ze,,,,,35.03729248046875,-106.67120361328125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fee3e4aa1ab94263ac8644,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,H,L,O,U,19,Female,,"Hispanic, Latino, Latina, or Latinx",,English,N/A,Maybe include the tone the person giving feedback uses,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:46:03,2021-07-31 12:53:04,IP Address,141.239.173.13,100,420,True,2021-07-31 12:53:04,R_1GKpBQ6fOpGLtRa,,,,,21.408203125,-157.739593505859375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6100a8074d0af0e216746ba0,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,H,L,O,U,23,Female,,Other (please specify),Mixed,"English ",N/A,N/A,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:45:49,2021-07-31 12:53:30,IP Address,24.19.175.200,100,461,True,2021-07-31 12:53:31,R_1DUu7kFtzndqwkg,,,,,48.434906005859375,-122.202301025390625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6104d2792c6a9b50dfbc4239,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,U,23,Female,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:46:58,2021-07-31 12:55:11,IP Address,107.192.200.249,100,492,True,2021-07-31 12:55:12,R_1LOtpLsnrcoKTEp,,,,,31.971099853515625,-97.87760162353515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610518256669832b783e6992,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,H,L,O,U,41,Male,,,,english,nil,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:43:02,2021-07-31 12:57:12,IP Address,174.73.226.29,100,850,True,2021-07-31 12:57:13,R_DuzHDQUutxARvSF,,,,,33.4803009033203125,-112.394500732421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd5b351ba330989b08db6e,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,H,L,O,U,52,Male,,White,,English,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:39:25,2021-07-31 12:57:36,IP Address,47.144.103.220,100,1091,True,2021-07-31 12:57:37,R_2xY1EaScw8SuYT5,,,,,34.0121002197265625,-117.68830108642578125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd5b5f39a3d21a474f7c09,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,H,L,O,U,52,Male,,White,,English,NA,NA,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:40:21,2021-07-31 13:00:16,IP Address,76.200.130.232,100,1194,True,2021-07-31 13:00:17,R_3lsNkRvPwKN9KzC,,,,,34.231903076171875,-84.16269683837890625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff1d0d76f7abb2ac55f377,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Not At All
+Likely",,,,,H,L,O,U,19,Female,,White,,English,no!,no!,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 12:54:18,2021-07-31 13:04:00,IP Address,97.91.169.82,100,581,True,2021-07-31 13:04:01,R_1CmwUz3fmY2Pjr2,,,,,38.8040008544921875,-90.85340118408203125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610342791f17a52c9fd5ea36,,,,,"Extremely
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Very
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,H,L,O,U,27,Male,,White,,English,No,No,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-31 14:19:31,2021-07-31 14:24:21,IP Address,99.62.60.76,100,289,True,2021-07-31 14:24:22,R_216C6KgazR5zdSU,,,,,41.648895263671875,-83.60150146484375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102dc4e3a1a839a3a77d006,,,,,,,,,,,,,,,"Very
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,"Very
+Likely","Very
+Likely",,,,,,,,,,,,,,,"Very
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Not At All
+Likely",,,,,,,,,,,,,,,"Somewhat
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,"Not At All
+Likely","Very
+Likely",,,,,,,,,,,,,"Somewhat
+Likely","Extremely
+Likely",,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,"Extremely
+Likely","Somewhat
+Likely",,,,,,,,,,,,,,,,,,,H,L,O,U,23,Female,,White,,english,,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1

@@ -1,0 +1,3329 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,consent,workerID,1-1-1-dv,Q746,3-1-1-dv,4-1-1-dv,5-1-1-dv,6-1-1-dv,7-1-1-dv,8-1-1-dv,9-1-1-dv,10-1-1-dv,11-1-1-dv,12-1-1-dv,1-1-2-dv,2-1-2-dv,3-1-2-dv,4-1-2-dv,5-1-2-dv,6-1-2-dv,7-1-2-dv,8-1-2-dv,9-1-2-dv,10-1-2-dv,11-1-2-dv,12-1-2-dv,1-1-3-dv,2-1-3-dv,3-1-3-dv,4-1-3-dv,5-1-3-dv,6-1-3-dv,7-1-3-dv,8-1-3-dv,9-1-3-dv,10-1-3-dv,11-1-3-dv,12-1-3-dv,1-1-4-dv,2-1-4-dv,3-1-4-dv,4-1-4-dv,5-1-4-dv,6-1-4-dv,7-1-4-dv,8-1-4-dv,9-1-4-dv,10-1-4-dv,11-1-4-dv,12-1-4-dv,1-1-5-dv,2-1-5-dv,3-1-5-dv,4-1-5-dv,5-1-5-dv,6-1-5-dv,7-1-5-dv,8-1-5-dv,9-1-5-dv,10-1-5-dv,11-1-5-dv,12-1-5-dv,1-1-6-dv,2-1-6-dv,3-1-6-dv,4-1-6-dv,5-1-6-dv,6-1-6-dv,7-1-6-dv,8-1-6-dv,9-1-6-dv,10-1-6-dv,11-1-6-dv,12-1-6-dv,1-2-1-dv,2-2-1-dv,3-2-1-dv,4-2-1-dv,5-2-1-dv,6-2-1-dv,7-2-1-dv,8-2-1-dv,9-2-1-dv,10-2-1-dv,11-2-1-dv,12-2-1-dv,1-2-2-dv,2-2-2-dv,3-2-2-dv,4-2-2-dv,5-2-2-dv,6-2-2-dv,7-2-2-dv,8-2-2-dv,9-2-2-dv,10-2-2-dv,11-2-2-dv,12-2-2-dv,1-2-3-dv,2-2-3-dv,3-2-3-dv,4-2-3-dv,5-2-3-dv,6-2-3-dv,7-2-3-dv,8-2-3-dv,9-2-3-dv,10-2-3-dv,11-2-3-dv,12-2-3-dv,1-2-4-dv,2-2-4-dv,3-2-4-dv,4-2-4-dv,5-2-4-dv,6-2-4-dv,7-2-4-dv,8-2-4-dv,9-2-4-dv,10-2-4-dv,11-2-4-dv,12-2-4-dv,1-2-5-dv,2-2-5-dv,3-2-5-dv,4-2-5-dv,5-2-5-dv,6-2-5-dv,7-2-5-dv,8-2-5-dv,9-2-5-dv,10-2-5-dv,11-2-5-dv,12-2-5-dv,1-2-6-dv,2-2-6-dv,3-2-6-dv,4-2-6-dv,5-2-6-dv,6-2-6-dv,7-2-6-dv,8-2-6-dv,9-2-6-dv,10-2-6-dv,11-2-6-dv,12-2-6-dv,1-3-1-dv,2-3-1-dv,3-3-1-dv,4-3-1-dv,5-3-1-dv,6-3-1-dv,7-3-1-dv,8-3-1-dv,9-3-1-dv,10-3-1-dv,11-3-1-dv,12-3-1-dv,1-3-2-dv,2-3-2-dv,3-3-2-dv,4-3-2-dv,5-3-2-dv,6-3-2-dv,7-3-2-dv,8-3-2-dv,9-3-2-dv,10-3-2-dv,11-3-2-dv,12-3-2-dv,1-3-3-dv,2-3-3-dv,3-3-3-dv,4-3-3-dv,5-3-3-dv,6-3-3-dv,7-3-3-dv,8-3-3-dv,9-3-3-dv,10-3-3-dv,11-3-3-dv,12-3-3-dv,1-3-4-dv,2-3-4-dv,3-3-4-dv,4-3-4-dv,5-3-4-dv,6-3-4-dv,7-3-4-dv,8-3-4-dv,9-3-4-dv,10-3-4-dv,11-3-4-dv,12-3-4-dv,1-3-5-dv,2-3-5-dv,3-3-5-dv,4-3-5-dv,5-3-5-dv,6-3-5-dv,7-3-5-dv,8-3-5-dv,9-3-5-dv,10-3-5-dv,11-3-5-dv,12-3-5-dv,1-3-6-dv,2-3-6-dv,3-3-6-dv,4-3-6-dv,5-3-6-dv,6-3-6-dv,7-3-6-dv,8-3-6-dv,9-3-6-dv,10-3-6-dv,11-3-6-dv,12-3-6-dv,1-4-1-dv,2-4-1-dv,3-4-1-dv,4-4-1-dv,5-4-1-dv,6-4-1-dv,7-4-1-dv,8-4-1-dv,9-4-1-dv,10-4-1-dv,11-4-1-dv,12-4-1-dv,1-4-2-dv,2-4-2-dv,3-4-2-dv,4-4-2-dv,5-4-2-dv,6-4-2-dv,7-4-2-dv,8-4-2-dv,9-4-2-dv,10-4-2-dv,11-4-2-dv,12-4-2-dv,1-4-3-dv,2-4-3-dv,3-4-3-dv,4-4-3-dv,5-4-3-dv,6-4-3-dv,7-4-3-dv,8-4-3-dv,9-4-3-dv,10-4-3-dv,11-4-3-dv,12-4-3-dv,1-4-4-dv,2-4-4-dv,3-4-4-dv,4-4-4-dv,5-4-4-dv,6-4-4-dv,7-4-4-dv,8-4-4-dv,9-4-4-dv,10-4-4-dv,11-4-4-dv,12-4-4-dv,1-4-5-dv,2-4-5-dv,3-4-5-dv,4-4-5-dv,5-4-5-dv,6-4-5-dv,7-4-5-dv,8-4-5-dv,9-4-5-dv,10-4-5-dv,11-4-5-dv,12-4-5-dv,1-4-6-dv,2-4-6-dv,3-4-6-dv,4-4-6-dv,5-4-6-dv,6-4-6-dv,7-4-6-dv,8-4-6-dv,9-4-6-dv,10-4-6-dv,11-4-6-dv,12-4-6-dv,Check1,Check2,Check3,Check4,Q1545,Q1546,Q1546_3_TEXT,Q1547,Q1547_9_TEXT,Q1548,Q1549,Q1550,Face1,Face2,Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,1-1,1-2,1-3,1-4,1-5,1-6,2-1,2-2,2-3,2-4,2-5,2-6,3-1,3-2,3-3,3-4,3-5,3-6,4-1,4-2,4-3,4-4,4-5,4-6
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Consent Statement
+By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Psychology. If you have questions about this research, please contact Michael C. Frank at mcfrank@stanford.edu. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.",Please enter your unique Prolific ID:,"In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted good?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted good?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted good?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted good?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted good?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted good?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted good?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted good?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted good?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted good?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted good?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted good?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted good?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted good?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted good?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted good?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted good?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted good?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted good?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted good?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted good?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted good?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted good?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted good?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted good?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted good?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted good?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted good?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted good?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted good?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted good?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted good?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted good?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted good?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted good?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted good?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted good?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted good?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted good?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted good?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted good?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted good?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted good?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted good?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted good?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted good?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted good?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted good?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted good?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted good?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted good?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted good?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted good?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted good?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted good?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted good?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted good?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted good?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted good?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted good?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted good?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted good?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted good?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted good?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted good?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted good?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted good?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted good?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted good?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted good?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted good?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted good?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted bad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted bad?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted bad?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted bad?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted bad?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted bad?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted bad?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted bad?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted bad?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted bad?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted bad?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted bad?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted bad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted bad?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted bad?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted bad?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted bad?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted bad?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted bad?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted bad?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted bad?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted bad?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted bad?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted bad?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted bad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted bad?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted bad?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted bad?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted bad?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted bad?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted bad?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted bad?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted bad?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted bad?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted bad?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted bad?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted bad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted bad?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted bad?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted bad?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted bad?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted bad?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted bad?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted bad?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted bad?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted bad?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted bad?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted bad?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted bad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted bad?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted bad?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted bad?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted bad?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted bad?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted bad?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted bad?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted bad?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted bad?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted bad?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted bad?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Alex thought Casey's salad tasted bad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Hayden thought Emerson's steak tasted bad?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Sam thought Riley's soup tasted bad?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Morgan thought Tracy's bread tasted bad?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Bailey thought Jackie's baked potato tasted bad?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Jo thought Quinn's taco tasted bad?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Taylor thought Jordan's sandwich tasted bad?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Avery thought Robin's pasta tasted bad?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Declan thought Corey's fried rice tasted bad?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Pat thought Dana's eggs tasted bad?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Adrian thought Frances' bagel tasted bad?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think Charlie thought Jesse's mac and cheese tasted bad?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+
+Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect is how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think below is how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+
+Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+
+Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+
+Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect is how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+
+Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+​​​​​Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think below is how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+
+Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Do you think below is how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+
+Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+
+​​​​​​Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","In front of Casey, Alex tasted a small bit of the salad.
+
+ 
+
+If this is how Alex thought Casey's salad tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Alex felt about Casey's salad?","In front of Emerson, Hayden tasted a small bit of the steak.
+
+ 
+
+If this is how Hayden thought Emerson's steak tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Hayden felt about Emerson's steak?","In front of Riley, Sam tasted a small sip of the soup.
+
+ 
+
+If this is how Sam thought Riley's soup tasted,
+
+
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Sam felt about Riley's soup?","In front of Tracy, Morgan tasted a small bit of the bread.
+
+ 
+
+If this is how Morgan thought Tracy's bread tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Morgan felt about Tracy's bread?","In front of Jackie, Bailey tasted a small bit of the baked potato.
+
+ 
+
+If this is how Bailey thought Jackie's baked potato tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Bailey felt about Jackie's baked potato?","In front of Quinn, Jo tasted a small bit of the taco.
+
+ 
+
+If this is how Jo thought Quinn's taco tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Jo felt about Quinn's taco?","In front of Jordan, Taylor tasted a small bit of the sandwich.
+
+ 
+
+If this is how Taylor thought Jordan's sandwich tasted,
+
+ 
+
+
+
+ 
+
+​​​​​​Does this facial expression reflect how Taylor felt about Jordan's sandwich?","In front of Robin, Avery tasted a small bit of the pasta.
+
+ 
+
+If this is how Avery thought Robin's pasta tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Avery felt about Robin's pasta?","In front of Corey, Declan tasted a small bit of the fried rice.
+
+ 
+
+If this is how Declan thought Corey's fried rice tasted,
+
+ 
+
+
+
+ 
+Does this facial expression reflect how Declan felt about Corey's fried rice?","In front of Dana, Pat tasted a small bit of the eggs.
+
+ 
+
+If this is how Pat thought Dana's eggs tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Pat felt about Dana's eggs?","In front of Frances, Adrian tasted a small bit of the bagel.
+
+ 
+
+If this is how Adrian thought Frances' bagel tasted,
+
+ 
+
+
+
+  
+
+​​​​​​Does this facial expression reflect how Adrian felt about Frances' bagel?","In front of Jesse, Charlie tasted a small bit of the mac and cheese.
+
+ 
+
+If this is how Charlie thought Jesse's mac and cheese tasted,
+
+ 
+
+
+
+ 
+​​​​​​Does this facial expression reflect how Charlie felt about Jesse's mac and cheese?","Just to check, the letters ""S"" are forming what letter in the image below?","Just to check, the letters ""U"" are forming what letter in the image below?","Just to check, the letters ""L"" are forming what letter in the image below?","Just to check, the letters ""O"" are forming what letter in the image below?",Age:,Gender: - Selected Choice,Gender: - Other (please specify) - Text,Race: - Selected Choice,Race: - Other (please specify) - Text,Native language:,Was there anything about this survey that was unclear? Did you have any difficulties while completing the survey?,Do you have any other feedback or anything else you want to let us know?,Face1,Face2,Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,1-1,1-2,1-3,1-4,1-5,1-6,2-1,2-2,2-3,2-4,2-5,2-6,3-1,3-2,3-3,3-4,3-5,3-6,4-1,4-2,4-3,4-4,4-5,4-6
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID676""}","{""ImportId"":""QID679_TEXT""}","{""ImportId"":""QID364""}","{""ImportId"":""QID746""}","{""ImportId"":""QID818""}","{""ImportId"":""QID891""}","{""ImportId"":""QID969""}","{""ImportId"":""QID1042""}","{""ImportId"":""QID1114""}","{""ImportId"":""QID1186""}","{""ImportId"":""QID1258""}","{""ImportId"":""QID1330""}","{""ImportId"":""QID1402""}","{""ImportId"":""QID1474""}","{""ImportId"":""QID683""}","{""ImportId"":""QID749""}","{""ImportId"":""QID821""}","{""ImportId"":""QID894""}","{""ImportId"":""QID972""}","{""ImportId"":""QID1045""}","{""ImportId"":""QID1117""}","{""ImportId"":""QID1189""}","{""ImportId"":""QID1261""}","{""ImportId"":""QID1333""}","{""ImportId"":""QID1405""}","{""ImportId"":""QID1477""}","{""ImportId"":""QID686""}","{""ImportId"":""QID752""}","{""ImportId"":""QID824""}","{""ImportId"":""QID897""}","{""ImportId"":""QID975""}","{""ImportId"":""QID1048""}","{""ImportId"":""QID1120""}","{""ImportId"":""QID1192""}","{""ImportId"":""QID1264""}","{""ImportId"":""QID1336""}","{""ImportId"":""QID1408""}","{""ImportId"":""QID1480""}","{""ImportId"":""QID689""}","{""ImportId"":""QID755""}","{""ImportId"":""QID827""}","{""ImportId"":""QID900""}","{""ImportId"":""QID978""}","{""ImportId"":""QID1051""}","{""ImportId"":""QID1123""}","{""ImportId"":""QID1195""}","{""ImportId"":""QID1267""}","{""ImportId"":""QID1339""}","{""ImportId"":""QID1411""}","{""ImportId"":""QID1483""}","{""ImportId"":""QID692""}","{""ImportId"":""QID758""}","{""ImportId"":""QID830""}","{""ImportId"":""QID903""}","{""ImportId"":""QID981""}","{""ImportId"":""QID1054""}","{""ImportId"":""QID1126""}","{""ImportId"":""QID1198""}","{""ImportId"":""QID1270""}","{""ImportId"":""QID1342""}","{""ImportId"":""QID1414""}","{""ImportId"":""QID1486""}","{""ImportId"":""QID695""}","{""ImportId"":""QID761""}","{""ImportId"":""QID833""}","{""ImportId"":""QID906""}","{""ImportId"":""QID984""}","{""ImportId"":""QID1057""}","{""ImportId"":""QID1129""}","{""ImportId"":""QID1201""}","{""ImportId"":""QID1273""}","{""ImportId"":""QID1345""}","{""ImportId"":""QID1417""}","{""ImportId"":""QID1489""}","{""ImportId"":""QID395""}","{""ImportId"":""QID764""}","{""ImportId"":""QID836""}","{""ImportId"":""QID909""}","{""ImportId"":""QID987""}","{""ImportId"":""QID1060""}","{""ImportId"":""QID1132""}","{""ImportId"":""QID1204""}","{""ImportId"":""QID1276""}","{""ImportId"":""QID1348""}","{""ImportId"":""QID1420""}","{""ImportId"":""QID1492""}","{""ImportId"":""QID698""}","{""ImportId"":""QID767""}","{""ImportId"":""QID839""}","{""ImportId"":""QID912""}","{""ImportId"":""QID990""}","{""ImportId"":""QID1063""}","{""ImportId"":""QID1135""}","{""ImportId"":""QID1207""}","{""ImportId"":""QID1279""}","{""ImportId"":""QID1351""}","{""ImportId"":""QID1423""}","{""ImportId"":""QID1495""}","{""ImportId"":""QID701""}","{""ImportId"":""QID770""}","{""ImportId"":""QID842""}","{""ImportId"":""QID915""}","{""ImportId"":""QID993""}","{""ImportId"":""QID1066""}","{""ImportId"":""QID1138""}","{""ImportId"":""QID1210""}","{""ImportId"":""QID1282""}","{""ImportId"":""QID1354""}","{""ImportId"":""QID1426""}","{""ImportId"":""QID1498""}","{""ImportId"":""QID704""}","{""ImportId"":""QID773""}","{""ImportId"":""QID845""}","{""ImportId"":""QID918""}","{""ImportId"":""QID996""}","{""ImportId"":""QID1069""}","{""ImportId"":""QID1141""}","{""ImportId"":""QID1213""}","{""ImportId"":""QID1285""}","{""ImportId"":""QID1357""}","{""ImportId"":""QID1429""}","{""ImportId"":""QID1501""}","{""ImportId"":""QID707""}","{""ImportId"":""QID776""}","{""ImportId"":""QID848""}","{""ImportId"":""QID921""}","{""ImportId"":""QID999""}","{""ImportId"":""QID1072""}","{""ImportId"":""QID1144""}","{""ImportId"":""QID1216""}","{""ImportId"":""QID1288""}","{""ImportId"":""QID1360""}","{""ImportId"":""QID1432""}","{""ImportId"":""QID1504""}","{""ImportId"":""QID710""}","{""ImportId"":""QID779""}","{""ImportId"":""QID851""}","{""ImportId"":""QID924""}","{""ImportId"":""QID1002""}","{""ImportId"":""QID1075""}","{""ImportId"":""QID1147""}","{""ImportId"":""QID1219""}","{""ImportId"":""QID1291""}","{""ImportId"":""QID1363""}","{""ImportId"":""QID1435""}","{""ImportId"":""QID1507""}","{""ImportId"":""QID413""}","{""ImportId"":""QID782""}","{""ImportId"":""QID854""}","{""ImportId"":""QID927""}","{""ImportId"":""QID1005""}","{""ImportId"":""QID1078""}","{""ImportId"":""QID1150""}","{""ImportId"":""QID1222""}","{""ImportId"":""QID1294""}","{""ImportId"":""QID1366""}","{""ImportId"":""QID1438""}","{""ImportId"":""QID1510""}","{""ImportId"":""QID716""}","{""ImportId"":""QID785""}","{""ImportId"":""QID857""}","{""ImportId"":""QID930""}","{""ImportId"":""QID1008""}","{""ImportId"":""QID1081""}","{""ImportId"":""QID1153""}","{""ImportId"":""QID1225""}","{""ImportId"":""QID1297""}","{""ImportId"":""QID1369""}","{""ImportId"":""QID1441""}","{""ImportId"":""QID1513""}","{""ImportId"":""QID719""}","{""ImportId"":""QID788""}","{""ImportId"":""QID860""}","{""ImportId"":""QID933""}","{""ImportId"":""QID1011""}","{""ImportId"":""QID1084""}","{""ImportId"":""QID1156""}","{""ImportId"":""QID1228""}","{""ImportId"":""QID1300""}","{""ImportId"":""QID1372""}","{""ImportId"":""QID1444""}","{""ImportId"":""QID1516""}","{""ImportId"":""QID722""}","{""ImportId"":""QID791""}","{""ImportId"":""QID863""}","{""ImportId"":""QID936""}","{""ImportId"":""QID1014""}","{""ImportId"":""QID1087""}","{""ImportId"":""QID1159""}","{""ImportId"":""QID1231""}","{""ImportId"":""QID1303""}","{""ImportId"":""QID1375""}","{""ImportId"":""QID1447""}","{""ImportId"":""QID1519""}","{""ImportId"":""QID725""}","{""ImportId"":""QID794""}","{""ImportId"":""QID866""}","{""ImportId"":""QID939""}","{""ImportId"":""QID1017""}","{""ImportId"":""QID1090""}","{""ImportId"":""QID1162""}","{""ImportId"":""QID1234""}","{""ImportId"":""QID1306""}","{""ImportId"":""QID1378""}","{""ImportId"":""QID1450""}","{""ImportId"":""QID1522""}","{""ImportId"":""QID728""}","{""ImportId"":""QID797""}","{""ImportId"":""QID869""}","{""ImportId"":""QID942""}","{""ImportId"":""QID1020""}","{""ImportId"":""QID1093""}","{""ImportId"":""QID1165""}","{""ImportId"":""QID1237""}","{""ImportId"":""QID1309""}","{""ImportId"":""QID1381""}","{""ImportId"":""QID1453""}","{""ImportId"":""QID1525""}","{""ImportId"":""QID431""}","{""ImportId"":""QID800""}","{""ImportId"":""QID872""}","{""ImportId"":""QID945""}","{""ImportId"":""QID1023""}","{""ImportId"":""QID1096""}","{""ImportId"":""QID1168""}","{""ImportId"":""QID1240""}","{""ImportId"":""QID1312""}","{""ImportId"":""QID1384""}","{""ImportId"":""QID1456""}","{""ImportId"":""QID1528""}","{""ImportId"":""QID731""}","{""ImportId"":""QID803""}","{""ImportId"":""QID875""}","{""ImportId"":""QID948""}","{""ImportId"":""QID1026""}","{""ImportId"":""QID1099""}","{""ImportId"":""QID1171""}","{""ImportId"":""QID1243""}","{""ImportId"":""QID1315""}","{""ImportId"":""QID1387""}","{""ImportId"":""QID1459""}","{""ImportId"":""QID1531""}","{""ImportId"":""QID734""}","{""ImportId"":""QID806""}","{""ImportId"":""QID878""}","{""ImportId"":""QID951""}","{""ImportId"":""QID1029""}","{""ImportId"":""QID1102""}","{""ImportId"":""QID1174""}","{""ImportId"":""QID1246""}","{""ImportId"":""QID1318""}","{""ImportId"":""QID1390""}","{""ImportId"":""QID1462""}","{""ImportId"":""QID1534""}","{""ImportId"":""QID737""}","{""ImportId"":""QID809""}","{""ImportId"":""QID882""}","{""ImportId"":""QID954""}","{""ImportId"":""QID1032""}","{""ImportId"":""QID1105""}","{""ImportId"":""QID1177""}","{""ImportId"":""QID1249""}","{""ImportId"":""QID1321""}","{""ImportId"":""QID1393""}","{""ImportId"":""QID1465""}","{""ImportId"":""QID1537""}","{""ImportId"":""QID740""}","{""ImportId"":""QID812""}","{""ImportId"":""QID885""}","{""ImportId"":""QID957""}","{""ImportId"":""QID1036""}","{""ImportId"":""QID1108""}","{""ImportId"":""QID1180""}","{""ImportId"":""QID1252""}","{""ImportId"":""QID1324""}","{""ImportId"":""QID1396""}","{""ImportId"":""QID1468""}","{""ImportId"":""QID1540""}","{""ImportId"":""QID743""}","{""ImportId"":""QID815""}","{""ImportId"":""QID888""}","{""ImportId"":""QID960""}","{""ImportId"":""QID1039""}","{""ImportId"":""QID1111""}","{""ImportId"":""QID1183""}","{""ImportId"":""QID1255""}","{""ImportId"":""QID1327""}","{""ImportId"":""QID1399""}","{""ImportId"":""QID1471""}","{""ImportId"":""QID1543""}","{""ImportId"":""QID663_TEXT""}","{""ImportId"":""QID665_TEXT""}","{""ImportId"":""QID666_TEXT""}","{""ImportId"":""QID667_TEXT""}","{""ImportId"":""QID1545_TEXT""}","{""ImportId"":""QID1546""}","{""ImportId"":""QID1546_3_TEXT""}","{""ImportId"":""QID1547""}","{""ImportId"":""QID1547_9_TEXT""}","{""ImportId"":""QID1548_TEXT""}","{""ImportId"":""QID1549_TEXT""}","{""ImportId"":""QID1550_TEXT""}","{""ImportId"":""Face1""}","{""ImportId"":""Face2""}","{""ImportId"":""Face3""}","{""ImportId"":""Face4""}","{""ImportId"":""Face5""}","{""ImportId"":""Face6""}","{""ImportId"":""Face7""}","{""ImportId"":""Face8""}","{""ImportId"":""Face9""}","{""ImportId"":""Face10""}","{""ImportId"":""Face11""}","{""ImportId"":""Face12""}","{""ImportId"":""1-1""}","{""ImportId"":""1-2""}","{""ImportId"":""1-3""}","{""ImportId"":""1-4""}","{""ImportId"":""1-5""}","{""ImportId"":""1-6""}","{""ImportId"":""2-1""}","{""ImportId"":""2-2""}","{""ImportId"":""2-3""}","{""ImportId"":""2-4""}","{""ImportId"":""2-5""}","{""ImportId"":""2-6""}","{""ImportId"":""3-1""}","{""ImportId"":""3-2""}","{""ImportId"":""3-3""}","{""ImportId"":""3-4""}","{""ImportId"":""3-5""}","{""ImportId"":""3-6""}","{""ImportId"":""4-1""}","{""ImportId"":""4-2""}","{""ImportId"":""4-3""}","{""ImportId"":""4-4""}","{""ImportId"":""4-5""}","{""ImportId"":""4-6""}"
+2021-07-22 16:01:51,2021-07-22 16:09:11,Survey Preview,,100,439,True,2021-07-22 16:09:12,R_2EiOGjjLr0mJMQv,,,,,37.39739990234375,-122.00099945068359375,preview,EN,I have read the consent statement and I agree to participate in the study.,test,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,H,L,O,U,,,,,,,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-22 16:35:22,2021-07-22 16:35:29,IP Address,171.66.12.153,0,7,False,2021-07-29 16:35:32,R_32LLprQ7XmZFarm,,,,,,,anonymous,EN,I have read the consent statement and I agree to participate in the study.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2021-07-22 16:48:44,2021-07-22 16:57:01,IP Address,128.12.92.87,74,496,False,2021-07-29 16:57:03,R_BPOyQ0chkYOdy4V,,,,,,,anonymous,EN,I have read the consent statement and I agree to participate in the study.,ss,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,H,L,,,,,,,,,,,2,1,2,2,2,1,2,1,2,0,1,1,1,0,1,1,1,1,1,0,0,1,1,1,1,0,1,1,1,1,1,1,0,0,1,0
+2021-07-30 11:13:04,2021-07-30 11:18:25,IP Address,172.58.69.49,100,321,True,2021-07-30 11:18:27,R_1IfOnx7YlVO9Poa,,,,,37.751007080078125,-97.82199859619140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610425b7badeb5d0e74e009e,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,H,L,O,U,18,Female,,White,,"English ",no,no,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:12:51,2021-07-30 11:21:14,IP Address,24.90.225.59,100,503,True,2021-07-30 11:21:15,R_12DS5V6e1MBZEuP,,,,,40.7279052734375,-73.9965972900390625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610420f54e343995b01b46ef,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,Yes,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,H,L,O,U,20,Female,,White,,English,No,N/A,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:22:14,2021-07-30 11:28:22,IP Address,69.212.57.167,100,367,True,2021-07-30 11:28:23,R_bJ92Ir0MTjiaSuB,,,,,41.9456939697265625,-87.7393035888671875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61037451549abd4fa911d188,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,H,L,O,U,31,Female,,"Hispanic, Latino, Latina, or Latinx",,English,"Nothing was unclear. I didn’t have any difficulties. ",No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:27:16,2021-07-30 11:32:58,IP Address,50.5.252.4,100,342,True,2021-07-30 11:33:00,R_33sgYsZbs2LTpsr,,,,,39.1641998291015625,-84.23560333251953125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fcf12e5207654cf365f1ef,,,,,,,,,,No,,,,,,,,,,,,No,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,H,L,O,U,32,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:29:39,2021-07-30 11:34:12,IP Address,68.196.162.77,100,273,True,2021-07-30 11:34:13,R_7PV2evloCNMVUJj,,,,,40.678497314453125,-73.4947967529296875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610342f902447bb4f4cd4c3e,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,No,,,,,,H,L,O,U,26,Female,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:33:11,2021-07-30 11:36:44,IP Address,24.11.160.16,100,212,True,2021-07-30 11:36:46,R_3iUnrXbX1Vc5a24,,,,,32.707305908203125,-80.2743988037109375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6103920958a8fa2e55b25c4d,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,Yes,,,,,,,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,H,L,O,U,20,Male,,White,,English,No,N/A,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:29:43,2021-07-30 11:36:56,IP Address,64.121.79.56,100,432,True,2021-07-30 11:36:56,R_Uymg0W1T9tBeXPH,,,,,40.5265960693359375,-75.49939727783203125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61041f41cf53c677f3c5c397,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,H,L,O,U,45,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:33:01,2021-07-30 11:38:58,IP Address,67.170.188.53,100,356,True,2021-07-30 11:38:59,R_0uBGeZIbXqPbMo9,,,,,45.6378021240234375,-122.523895263671875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff2fc96585bd1f07882104,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,H,L,O,U,22,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:25:42,2021-07-30 11:39:17,IP Address,172.100.118.96,100,814,True,2021-07-30 11:39:17,R_2zIb3nHOtZF2rZr,,,,,42.67010498046875,-73.77539825439453125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610313bc165f1c872eb7e7bd,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,H,L,O,U,21,Female,,Black or African American,,English,"No ","I think the survey was great, maybe include more images but other than that its nice",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:37:29,2021-07-30 11:42:36,IP Address,24.220.71.111,100,307,True,2021-07-30 11:42:37,R_12AneVT5ylx37NY,,,,,46.390594482421875,-96.74900054931640625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff605b4c4980df860e43dc,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,H,L,O,U,29,Female,,White,,english,no,no,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:37:18,2021-07-30 11:43:52,IP Address,174.96.121.58,100,394,True,2021-07-30 11:43:53,R_UFNle0xszITLYyd,,,,,40.4835968017578125,-81.43869781494140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff6f91c2cac441ca3cfefc,,,,,,,,,,,,No,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,H,L,O,U,21,Female,,White,,"English ","No, all was straight to the point ","Nope good job ",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:39:16,2021-07-30 11:44:18,IP Address,172.58.169.133,100,301,True,2021-07-30 11:44:18,R_1LHgCleNXAid5tk,,,,,27.9031982421875,-82.29109954833984375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,606ce950bef1f305c877048d,No,,,,,,,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,No,,,,,,H,L,O,U,18,Male,,White,,English,Everything was clear and easy to understand.,I do not.,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:39:34,2021-07-30 11:45:01,IP Address,67.1.254.86,100,327,True,2021-07-30 11:45:03,R_yZW7bR634G45urn,,,,,32.194305419921875,-110.9766998291015625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,5b287b1a8ecf3f000161bc22,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,H,L,O,U,24,Female,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:36:26,2021-07-30 11:45:31,IP Address,156.98.106.254,100,544,True,2021-07-30 11:45:32,R_33pRJBJKuqWpwXf,,,,,45.193206787109375,-93.3022003173828125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61042a756d4784533ec3be1e,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,H,L,O,U,22,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:39:39,2021-07-30 11:45:44,IP Address,107.77.209.150,100,365,True,2021-07-30 11:45:45,R_2bWac1koObb0EC2,,,,,41.87640380859375,-87.6132965087890625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe09daccfea1594ca7ea1e,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,No,,,H,L,O,U,19,Female,,White,,English,"No, everything was clear and functioned well. ",,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:41:55,2021-07-30 11:46:43,IP Address,107.77.223.142,100,288,True,2021-07-30 11:46:44,R_32QIZnVgvZdV4y1,,,,,40.8343048095703125,-73.92350006103515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6100102ef37cfbe9f94204b6,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,H,L,O,U,22,Female,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:40:22,2021-07-30 11:47:57,IP Address,72.192.3.53,100,454,True,2021-07-30 11:47:58,R_2TAlpx48Ewws4Qg,,,,,41.70660400390625,-72.57450103759765625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6101f94a7349250f785e9259,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,No,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,No,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,H,L,O,U,19,Male,,White,,English,Nope. Everything was clear and straightforward.,Thank you!,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:45:38,2021-07-30 11:49:54,IP Address,147.253.242.37,100,255,True,2021-07-30 11:49:54,R_1OTszLOPmoabrfL,,,,,34.7666015625,-84.98480224609375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff34fe681649ea4e694121,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,H,L,O,U,18,Non-binary,,"Hispanic, Latino, Latina, or Latinx",,English,None,N/A,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:45:59,2021-07-30 11:50:02,IP Address,71.198.232.49,100,242,True,2021-07-30 11:50:02,R_NVdKtG5hiTyTHC9,,,,,37.0312957763671875,-122.1197967529296875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6101eec2ded6cb156b86b0fe,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,No,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,H,L,O,U,20,Female,,White,,English,no,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:45:45,2021-07-30 11:50:24,IP Address,68.117.221.72,100,279,True,2021-07-30 11:50:25,R_3ptf88fpkVAvfE2,,,,,34.3542938232421875,-83.889801025390625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ffe72ab173be7636fd46f3,,,,No,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,H,L,O,U,28,Female,,"Hispanic, Latino, Latina, or Latinx",,,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:44:54,2021-07-30 11:50:50,IP Address,174.219.6.174,100,356,True,2021-07-30 11:50:51,R_3r1UljAbUmGhSz1,,,,,44.950897216796875,-93.33660125732421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fef009f91617cf5d3652d2,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,H,"L ",O,U,24,Female,,White,,English,"No ","I felt there could have been an in between option. ",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:46:51,2021-07-30 11:52:12,IP Address,70.164.32.44,100,320,True,2021-07-30 11:52:13,R_ukvUOpdZ5TIytih,,,,,29.9734039306640625,-90.0885009765625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,5f8efa33966cc80d0f445afc,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,No,,,,,,,,,H,L,O,U,34,Female,,White,,"English ",,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:49:06,2021-07-30 11:52:23,IP Address,173.241.233.182,100,197,True,2021-07-30 11:52:24,R_Aj5JTcKhLQAgcUN,,,,,42.2324066162109375,-83.70169830322265625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe2474894061429a2aa588,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,H,L,O,U,28,Male,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:48:27,2021-07-30 11:52:45,IP Address,136.36.109.63,100,258,True,2021-07-30 11:52:47,R_3n8YBtlZEyB30P6,,,,,40.2584075927734375,-111.6591033935546875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6103b8ab6c023af478ce46d3,,,,,No,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,H,L,"O ",U,23,Male,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:49:02,2021-07-30 11:53:23,IP Address,131.212.251.49,100,261,True,2021-07-30 11:53:24,R_3socyUBDdGjr8KM,,,,,44.9763946533203125,-93.2239990234375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fcfd938d90e8a35f12855d,,,,,,No,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,h,l,o,u,26,Female,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:46:18,2021-07-30 11:53:32,IP Address,72.170.231.2,100,434,True,2021-07-30 11:53:33,R_2dMHyE2GaV4WCnV,,,,,30.61810302734375,-89.57830047607421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fc707e4aaa0f7f0271b758,,,,,,,,,No,,,,,,,,,,,,,,No,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,No,,,,,,,,,H,L,O,U,23,Non-binary,,White,,"English ",No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:49:36,2021-07-30 11:53:32,IP Address,99.137.181.105,100,235,True,2021-07-30 11:53:33,R_3nCSUNiiHiWmmX0,,,,,28.5464019775390625,-81.2584991455078125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102018a0fa39fb94e99c568,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,,,,,,No,H,L,O,U,20,Female,,Asian or Asian American,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:46:39,2021-07-30 11:53:37,IP Address,24.247.114.58,100,418,True,2021-07-30 11:53:39,R_21mvsYW0ubjzsbY,,,,,42.2910003662109375,-85.63410186767578125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610356387a9f1d93620c4898,,,,,,No,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,H,L,O,U,30,Female,,White,,"english ",no,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:46:14,2021-07-30 11:54:01,IP Address,73.97.220.30,100,466,True,2021-07-30 11:54:02,R_QoyxQ90UtlrgopP,,,,,47.53570556640625,-122.3502960205078125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102f6143d09f5475393dedf,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,No,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,H,L,O,U,31,Female,,White,,English,"The first question didn’t make it clear that the top rating was 6 stars. ",,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:49:55,2021-07-30 11:54:01,IP Address,75.9.109.188,100,245,True,2021-07-30 11:54:02,R_2rilXcKrxKjBnDr,,,,,43.16009521484375,-87.9944000244140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe2c434b42e8fd24ecbe78,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,No,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,No,,,,,H,L,O,U,26,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:47:28,2021-07-30 11:54:04,IP Address,108.71.101.4,100,396,True,2021-07-30 11:54:05,R_T6LNA8v03FkVbhf,,,,,36.757598876953125,-119.80860137939453125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61008eb5a88b152b46baaae0,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,H,L,O,U,24,Female,,Other (please specify),Mixed Race,English,"Some of the pictures didn't load ",,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:45:18,2021-07-30 11:54:09,IP Address,162.225.218.210,100,530,True,2021-07-30 11:54:09,R_VRync6lbjE39tAt,,,,,38.872894287109375,-86.48600006103515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610369f8990ef8339d1e8cd0,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,H,L,O,U,20,Female,,White,,English,"No difficulties ","Survey was interesting! ",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:44:43,2021-07-30 11:54:29,IP Address,172.113.125.17,100,586,True,2021-07-30 11:54:30,R_3MiBeBW6Kc5qTuU,,,,,33.9167938232421875,-118.34320068359375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6103b3085e29bd2339238dc5,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,H,L,O,U,18,Female,,White,,"English ",No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:35:34,2021-07-30 11:54:34,IP Address,24.16.25.184,100,1140,True,2021-07-30 11:54:35,R_DhPte1hhKvfvYqt,,,,,47.67840576171875,-122.185699462890625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fdef0ed966b6216ea8e668,,No,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,No,,,,H,L,O,"U ",21,Female,,White,,English,No,Nope,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:47:18,2021-07-30 11:54:46,IP Address,174.246.139.167,100,448,True,2021-07-30 11:54:47,R_2uCJPPlOr82MNLN,,,,,32.718505859375,-97.1432037353515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102fa00f2f50dbac19a323e,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,No,,,,H,L,O,U,28,Female,,White,,"English ",No,N/A,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:51:29,2021-07-30 11:54:59,IP Address,50.250.159.60,100,209,True,2021-07-30 11:54:59,R_25KsVi7I2ZerEb9,,,,,40.4235992431640625,-105.09349822998046875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff3a07d734239b4406270b,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,H,L,O,U,23,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:47:53,2021-07-30 11:55:08,IP Address,174.208.194.218,100,434,True,2021-07-30 11:55:09,R_Tu5hjOcO98tndkd,,,,,41.9459991455078125,-87.70330047607421875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61034b803f2d030560127172,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,No,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,H,L,O,U,58,Female,,White,,"English ",None,"No thank you ",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:50:55,2021-07-30 11:55:10,IP Address,45.21.16.17,100,255,True,2021-07-30 11:55:11,R_wOg8cSm5QyarRn3,,,,,32.8372039794921875,-96.7689971923828125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd037a1148e4603cb50569,,,,,,,,,,,No,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,H,L,O,U,26,Female,,"Hispanic, Latino, Latina, or Latinx",,"Spanish ",,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:50:48,2021-07-30 11:55:17,IP Address,98.34.240.168,100,269,True,2021-07-30 11:55:18,R_31NOEW7lPXgQBEX,,,,,29.7924957275390625,-95.36730194091796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe0f72bcb890ed7dbb0240,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,H,L,O,U,27,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:50:47,2021-07-30 11:55:20,IP Address,72.206.98.218,100,273,True,2021-07-30 11:55:21,R_2rVpoTMmmZOsfSC,,,,,41.2671051025390625,-96.03780364990234375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe5017da1ab700dfd450e9,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,H,L,O,"U ",21,Female,,White,,,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:49:41,2021-07-30 11:55:40,IP Address,174.204.69.63,100,359,True,2021-07-30 11:55:41,R_2PqkSR3FebEZMf4,,,,,47.490203857421875,-122.3003997802734375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fda85bb6196efae1e3a29b,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,,,,No,H,L,O,U,23,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:41:56,2021-07-30 11:55:46,IP Address,172.127.45.227,100,829,True,2021-07-30 11:55:46,R_3ITeUILDlI5D6HM,,,,,35.4219970703125,-97.65779876708984375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610383314fa99cddbd6741193,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,No,,,,,,,,,,,,,,,,,,,,No,,,,No,,,,,,,,,,,,H,L,O,U,18,Female,,White,,English,"No, everything was crystal clear.",No I do not.,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:46:53,2021-07-30 11:55:58,IP Address,172.115.128.112,100,544,True,2021-07-30 11:55:59,R_26hl8TyT8yssaWg,,,,,34.2277984619140625,-118.4420013427734375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,JungJaykooklybtsjsbgmx57,,,,,No,,,,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,H,L,O,U,22,Female,,Asian or Asian American,,Tagalog,Only that when it was rated 3 stars I wasn't too sure if I could see that as necessarily bad since I'd think it's more of 50% bad but also 50% good,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:42:15,2021-07-30 11:56:07,IP Address,216.53.168.60,100,832,True,2021-07-30 11:56:08,R_XLngivSx1j1lspH,,,,,28.3961029052734375,-81.46810150146484375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102dd608ef93cfa72ba18e8,,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,,No,,,,,,,H,L,O,U,52,Female,,White,,"English ",No," Very enjoyable survey. ",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:52:39,2021-07-30 11:56:49,IP Address,24.179.170.159,100,249,True,2021-07-30 11:56:50,R_WAt8cb3Yfr3iCsh,,,,,45.2100067138671875,-93.66069793701171875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe314e86e701d9ff7a51b6,,,,No,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,Yes,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,H,L,O,U,42,Male,,White,,English,no,This is one of the best study.,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:53:18,2021-07-30 11:57:06,IP Address,50.228.239.78,100,228,True,2021-07-30 11:57:08,R_3J9LAZZ2cVulPqI,,,,,37.33709716796875,-79.28150177001953125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61020544e1d8b2514e3dc455,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,H,L,O,U,22,Female,,"Hispanic, Latino, Latina, or Latinx",,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:51:27,2021-07-30 11:57:10,IP Address,107.88.177.47,100,342,True,2021-07-30 11:57:10,R_29idKjyyMnlXpiS,,,,,33.748504638671875,-84.3871002197265625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61030e58d4c702c05b648d59,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,H,L,O,U,20,Male,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:53:15,2021-07-30 11:57:31,IP Address,76.204.131.51,100,255,True,2021-07-30 11:57:31,R_3nlnf7qQEjgBd0s,,,,,41.9031982421875,-87.63829803466796875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fcf8392a83ae1b971d1199,,No,,,,,,,,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,,,,,,,,No,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,H,L,O,U,23,Female,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:51:54,2021-07-30 11:58:12,IP Address,174.195.218.10,100,377,True,2021-07-30 11:58:13,R_1rGLuiZthOf18Pf,,,,,33.9243011474609375,-117.610504150390625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe44c00369d7cfd7b2f4ae,,,No,,,,,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,H,L,O,U,35,Female,,Native Hawaiian or Other Pacific Islander,,"English ",No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:49:41,2021-07-30 11:59:27,IP Address,71.36.111.90,100,585,True,2021-07-30 11:59:28,R_1i3F1VdYuqQDmP7,,,,,45.5471954345703125,-122.64170074462890625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,61003f93969fc2d106f9d93e,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,,,,,,No,,H,L,O,U,31,Female,,White,,English,N/A,N/A,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:51:09,2021-07-30 12:00:00,IP Address,104.5.31.250,100,530,True,2021-07-30 12:00:01,R_3et75JpYcccjPyE,,,,,29.5,-98.67440032958984375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fe08a0e9721d4c9bd82430,,,,,,,,,,No,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,No,,,,,,,,,H,L,O,"U ",24,Female,,"Hispanic, Latino, Latina, or Latinx",,"English ",N/A,"N/A ",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:54:31,2021-07-30 12:00:40,IP Address,98.217.221.44,100,368,True,2021-07-30 12:00:41,R_3fk42IdB0VMvKju,,,,,42.4947052001953125,-70.8498992919921875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6102b062620226949c9008e5,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,,,,,,Yes,,,Yes,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,H,L,O,U,23,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:54:12,2021-07-30 12:00:58,IP Address,98.29.169.88,100,406,True,2021-07-30 12:01:00,R_1jUR0SFgSA0jw8p,,,,,38.1405029296875,-85.693603515625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6101ef1676d38820d1002ef5,,,,,,No,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,H,L,O,U,24,Female,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:54:17,2021-07-30 12:03:40,IP Address,99.157.227.3,100,562,True,2021-07-30 12:03:42,R_1ILx4t64yBLuJBR,,,,,41.1230926513671875,-81.56659698486328125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60ff468d98f2456c86e163a6,,,,,No,,,,,,,,,,,,,,,,,No,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,H,L,O,U,22,Non-binary,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:52:55,2021-07-30 12:04:09,IP Address,174.62.24.95,100,673,True,2021-07-30 12:04:10,R_3kdHcILigcuj6vI,,,,,35.187103271484375,-106.66590118408203125,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6100416a106518ecb450c6e0,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,No,,,,,,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,Yes,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,H,L,O,U,18,Female,,White,,English,No difficulties!,"This was fun, I hope it was informative as well!!",2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:46:53,2021-07-30 12:06:46,IP Address,174.246.68.184,100,1192,True,2021-07-30 12:06:47,R_3kk1giZ1HEftybA,,,,,47.210906982421875,-122.414703369140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fed5b7f000e00e327bd5c3,,,,,No,,,,,,,,,No,,,,,,,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,No,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,H,L,O,U,22,Female,,White,,English,,,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:54:17,2021-07-30 12:07:27,IP Address,66.25.132.183,100,790,True,2021-07-30 12:07:28,R_pmavcYsyf5hMzdf,,,,,31.1992950439453125,-97.93039703369140625,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fd09a4db8807b346126733,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,Yes,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,No,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,H,L,O,U,42,Male,,White,,English,No  this survey was very clear.thank you.,NO thank you.,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:44:15,2021-07-30 12:17:24,IP Address,71.92.22.85,100,1989,True,2021-07-30 12:17:25,R_1j9rGWVEAQ5qgMO,,,,,30.5435943603515625,-89.68959808349609375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,610258d83508281a5ae8ca2d,,Yes,,,,,,,,,,,,,,,Yes,,,,,,,,No,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,,Yes,,,No,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,Yes,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,,H,L,O,U,43,Male,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 11:44:29,2021-07-30 12:21:26,IP Address,24.243.197.199,100,2216,True,2021-07-30 12:21:26,R_211EYZIS500159R,,,,,40.7964019775390625,-96.74810028076171875,anonymous,EN,I have read the consent statement and I agree to participate in the study.,6101ed8447796e885dbf76f9,Yes,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,,Yes,,,,,,,,,No,,,,,,,Yes,,,,,,,,,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,,,,,,,,,,,No,,,,Yes,,,,,,,,,,,,,,Yes,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,No,,,No,,,,,,,,,,No,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,Yes,,,,,Yes,,,,,,,,,,,H,L,O,U,48,Male,,White,,English,No,No,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2021-07-30 12:30:13,2021-07-30 12:39:23,IP Address,198.137.20.136,100,550,True,2021-07-30 12:39:24,R_1DXY5wsCuvJ5qF0,,,,,33.933197021484375,-83.35359954833984375,anonymous,EN,I have read the consent statement and I agree to participate in the study.,60fedf00b3d67381229eb456,,No,,,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,Yes,,,,,,,Yes,,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,,,,,,,,,Yes,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,,,,,,,,No,,,,,,,,,,No,,,,,,,,,,,,,No,,,,,,,,,,,No,,,,Yes,,,,,,,,,,,,,,,,Yes,,,,,,,,,,,No,,,,,,,,,,,,,,,,,,No,,,,,,,,Yes,,,,,,,,,,,,,Yes,,,,,,,,,,,,No,,,,,,No,,,,,,,,,,,,,,,,,,,No,,,,,,,,,No,,,,,,,,H,L,O,U,28,Female,,Black or African American,,English,Nothing was unclear and I did not have any difficulties.,Nope.,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
