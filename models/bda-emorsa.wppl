@@ -1,0 +1,360 @@
+
+// webppl bda-emorsa.wppl --require webppl-csv --require ~/tools/webppl-sample-writer-fork --require emorsaUtils 1
+
+// this script will run 1 chain of 1 model
+var args = process.argv
+var chain = last(args) // load index as last command line index
+// var modelName = args[args.length - 2]
+
+// HELPER FUNCTIONS
+var df_semantics = dataFrame(csv.read("../data/clean_semantics_params.csv"), ["state", "a","b"])
+var df_goals = dataFrame(csv.read("../data/clean_data_goals.csv"), ["response"])
+var df_state = dataFrame(csv.read("../data/clean_data_true_state.csv"), ["response"])
+
+var states = levels(df_semantics, "state")
+var semObjects = levels(df_semantics, "trial")
+var semObjDict = {Bad: "bad", Good: "good", Pos: "smile", Neg: "frown"}
+
+var modelObj = {
+  Ma0_UttInfEmoNon: Ma0_UttInfEmoNon,
+  Ma1_UttInfEmoSoc,
+  Ma2_UttInfEmoBal,
+  Ma3_UttInfEmoTru,
+  Ma4_UttInfEmoInf,
+  Ma5_UttInfEmoTruInf,
+  Ma6_UttInfEmoTruSoc,
+  Ma7_UttInfEmoTruBal,
+  Mb0_UttBalEmoNon,
+  Mb1_UttBalEmoSoc,
+  Mb2_UttBalEmoBal,
+  Mb3_UttBalEmoTru,
+  Mb4_UttBalEmoInf,
+  Mb5_UttBalEmoTruInf,
+  Mb6_UttBalEmoTruSoc,
+  Mb7_UttBalEmoTruBal,
+  Mb8_UttBalEmoInfSoc,
+  Mc2_UttInfEmoBal,
+  Mc7_UttInfEmoTruBal,
+  Md1_UttBalEmoSoc,
+  Md4_UttBalEmoInf,
+  Md5_UttBalEmoTruInf,
+  Md6_UttBalEmoTruSoc
+}
+
+var modelsWithWeights = [
+  "Ma2_UttInfEmoBal",
+  "Ma7_UttInfEmoTruBal",
+  "Mb0_UttBalEmoNon",
+  "Mb1_UttBalEmoSoc",
+  "Mb2_UttBalEmoBal",
+  "Mb3_UttBalEmoTru",
+  "Mb4_UttBalEmoInf",
+  "Mb5_UttBalEmoTruInf",
+  "Mb6_UttBalEmoTruSoc",
+  "Mb7_UttBalEmoTruBal",
+  "Mb8_UttBalEmoInfSoc",
+  "Mc2_UttInfEmoBal",
+  "Mc7_UttInfEmoTruBal",
+  "Md1_UttBalEmoSoc",
+  "Md4_UttBalEmoInf",
+  "Md5_UttBalEmoTruInf",
+  "Md6_UttBalEmoTruSoc"
+]
+
+// taking index from command line, and selecting model to run
+var modelIndices = _.keys(modelObj)
+var modelIndex = (chain - 1) % modelIndices.length // which model to run (index)
+display(modelIndex)
+var modelName = modelIndices[modelIndex] // name of which model to run
+display(modelName)
+display(modelsWithWeights.indexOf(modelName))
+
+var modelHasWeights = modelsWithWeights.indexOf(modelName) > -1 // determine if we are dealing with a model that uses weight parameters
+display(modelHasWeights)
+var chain_num = Math.ceil(chain / modelIndices.length) // running same model multiple times
+display(chain_num)
+
+var rsaModel = modelObj[modelName]
+
+// manipulations: state prior, inf/soc goal, emoIsComm prior
+var all_conditions = {
+  "state_manipulation": ["good", "bad", "no_info"], // 3 levels: good, bad, no info
+  "goal_manipulation": ["inf", "soc", "no_info"], // 3 levels: inf, soc, no info
+  "emoIsComm_manipulation": ["comm", "non_comm", "no_info"] // 3 levels: comm, non_comm, no info
+}
+
+// what to do with emoIsComm parameter in goal_manipulation conditions?
+// 3 choices:
+// 1. flat prior (flip(0.5)), same as CogSci
+// 2. uniform prior (flip(p), p ~ uniform(0,1))
+// 3. uniform prior shared with emoIsComm == "no_info" condiiton [same parameter value as emoIsComm == "no_info"]
+// mh conclusions: 1 & 2 are most reasonable, 1 is simpler (doesn't add many more parameters)
+
+var model = function(){
+  // global free parameters
+  var speakerOptimality = uniformDrift({a: 0, b: 20, width: 2})
+
+  var goalExp = modelHasWeights ? uniformDrift({a: 0, b: 5, width: 1}) : 1
+  var goalScale = modelHasWeights ? uniformDrift({a: 0, b: 100, width: 10}) : 1 // aug 11, 2021: mh not sure why we need goal scale? but maybe to add more flexibility to modulating the distance between points on goal scale
+
+  var goalWeightBins = map(function(x){ return Math.pow(x, goalExp)}, weightBins) // weightBins = [1, 2, 3, 4] --> [1, 4, 9, 16]
+  var scaledGoalWeights = map(function(x){ return x / goalScale }, goalWeightBins) // e.g., vs: [1/20, 4/20, 9/20, 16/20], ps: [1, 1, 1, 1] (ps will change in diff goal_manipulation conditions)
+
+  // literal meaning parameters
+  // prior is posterior after literal semantics task
+  var literalMeanings = _.fromPairs(map(function(u){
+    var utt_row = _.filter(df_semantics, {trial: u})
+    var utt_emo = semObjDict[utt_row[0].trial]
+    return [utt_emo, _.fromPairs(map(function(s){
+      var utt_state_row = _.filter(utt_row, {state: s})[0]
+      return [s, sample(Beta({a: utt_state_row.a, b: utt_state_row.b})) ]
+    }, states))]
+  }, semObjects))
+
+  var emoIsCommPrior = {
+    comm: uniformDrift({a: 0, b: 1, width: 0.2}),
+    non_comm: uniformDrift({a: 0, b: 1, width: 0.2}),
+    no_info: uniformDrift({a: 0, b: 1, width: 0.2}) // could also fix to 0.5
+  }
+
+  var statePriorHyperParams = {
+    good: {mu: uniformDrift({a: 1, b: 6, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1}),
+    bad: {mu: uniformDrift({a: 1, b: 6, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1}),
+    no_info: {mu: uniformDrift({a: 1, b: 6, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1})
+    // no_info: {mu: 3, sigma: 10}
+  }
+
+  var statePriorParams = {
+    good: discreteGaussianProbs(statePriorHyperParams.good, states),   // states = [1, 2, ..., 6]
+    bad: discreteGaussianProbs(statePriorHyperParams.bad, states), // e.g., [0.3, 0.3, 0.1, 0.1, 0.1, 0.1]
+    no_info: discreteGaussianProbs(statePriorHyperParams.no_info, states) // could also fix to be [1, 1, 1, 1, 1, 1]
+    // no_info: [1, 1, 1, 1, 1, 1]
+  }
+
+
+  var goalWeightPriors = {
+    inf: {
+      inf_goal: {mu: uniformDrift({a: 1, b: 4, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1}),
+      soc_goal: {mu: uniformDrift({a: 1, b: 4, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1})
+    },
+    soc: {
+      inf_goal: {mu: uniformDrift({a: 1, b: 4, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1}),
+      soc_goal: {mu: uniformDrift({a: 1, b: 4, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1})
+    },
+    no_info: {
+      inf_goal: {mu: uniformDrift({a: 1, b: 4, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1}),
+      soc_goal: {mu: uniformDrift({a: 1, b: 4, width: 1}), sigma: uniformDrift({a: 0, b: 3, width: 1})
+    }
+  }
+
+  var infGoalWeights = {
+    inf: discreteGaussianProbs(goalWeightPriors.inf.inf_goal, weightBins),
+    soc: discreteGaussianProbs(goalWeightPriors.soc.inf_goal, weightBins),
+    no_info: discreteGaussianProbs(goalWeightPriors.no_info.inf_goal, weightBins)
+  }
+
+  var socGoalWeights = {
+    inf: discreteGaussianProbs(goalWeightPriors.inf.soc_goal, weightBins),
+    soc: discreteGaussianProbs(goalWeightPriors.soc.soc_goal, weightBins),
+    no_info: discreteGaussianProbs(goalWeightPriors.no_info.soc_goal, weightBins)
+  }
+
+  foreach(_.keys(all_conditions), function(condition_name){
+
+    var condition_levels = all_conditions[condition_name]
+
+    foreach(condition_levels, function(condition_level){
+
+      var parameters = {
+        speakerOptimality: speakerOptimality,
+        literalMeanings: literalMeanings,
+        weightBins: scaledGoalWeights,
+        emoIsCommPrior: (condition_name == "emoIsComm_manipulation") ?
+          emoIsCommPrior[condition_level] : 0.5,
+        statePrior: (condition_name == "state_manipulation") ?
+          statePriorParams[condition_level] : [1, 1, 1, 1, 1, 1],
+        infGoalWeights: (condition_name == "goal_manipulation") ?
+          infGoalWeights[condition_level] : uniformGoalWeights,
+        socGoalWeights: (condition_name == "goal_manipulation") ?
+          socGoalWeights[condition_level] : uniformGoalWeights
+       }
+
+       // TO DO: subset data here, to consider only CONDITION_NAME + CONDITION_LEVEL
+       var df_state_condition_level = _.filter(df_state,
+         {condition: condition_name, condition_level: condition_level})
+
+       var df_goals_condition_level = _.filter(df_goal,
+         {condition: condition_name, condition_level: condition_level}) //
+
+      foreach(emotions, function(emo){
+        foreach(utterances, function(utt){
+        // FILTER DATA, RUN MODEL, CONDITION ON DATA, RECORD MODEL PREDICTIONS
+
+        // // MUNGE DATA
+        // subset data by utt-emo condition
+        var state_data = _.map(
+          _.filter(df_state_condition_level, {utt: utt, exp: emo}),
+          "response")
+
+        var socGoal_data = _.map(
+          _.filter(df_goals_condition_level, {utt: utt, exp: emo, question: "social goal"}),
+          "response")
+
+        var infGoal_data = _.map(
+          _.filter(df_goals_condition_level, {utt: utt, exp: emo, question: "informational goal"}),
+          "response")
+
+        // // GENERATE MODEL PREDICTIONS
+        // run RSA model
+        var modelPrediction = rsaModel(utt, emo, parameters)
+        var modelSupport = modelPrediction.support()[0]
+        var hasState = _.keys(modelSupport).indexOf("state") > - 1
+        var hasInfGoal = _.keys(modelSupport).indexOf("infGoal") > - 1
+        var hasSocGoal = _.keys(modelSupport).indexOf("socGoal") > - 1
+        var hasEmoComm = _.keys(modelSupport).indexOf("emoComm") > - 1
+
+        // display('has state = ' + hasState + '. hasInfGoal = ' +hasInfGoal + '. hasSocGoal = ' + hasSocGoal + '. hasEmoComm = ' + hasEmoComm)
+
+        // marginalize for specific task predictions
+        var statePrediction = hasState ? marginalize(modelPrediction, "state") : null
+        var socGoalPrediction = hasSocGoal ? marginalize(modelPrediction, "socGoal") : null
+        var infGoalPrediction = hasInfGoal ? marginalize(modelPrediction, "infGoal"): null
+
+        // // OBSERVE DATA
+        // display('state')
+        // display(state_data)
+        // observe state data
+        if (hasState) {
+          mapData({data: state_data}, function(d){
+            var scr = statePrediction.score(d)
+            scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
+            observe(statePrediction, d)
+          })
+        }
+
+        // display('soc goal')
+        // display(socGoal_data)
+        // observe social goal data
+        if (hasSocGoal) {
+          mapData({data: socGoal_data}, function(d){
+            var scr = socGoalPrediction.score(d)
+            scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
+            observe(socGoalPrediction, d)
+          })
+        }
+
+        // display('inf goal')
+        // display(infGoal_data)
+        // observe informational goal data
+        if (hasInfGoal) {
+          mapData({data: infGoal_data}, function(d){
+            var scr = infGoalPrediction.score(d)
+            scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
+            observe(infGoalPrediction, d)
+          })
+        }
+
+        // // RECORD PREDICTIONS
+        // record state predictions
+        if (hasState) {
+          var stateSupport = statePrediction.support()
+          foreach(stateSupport, function(s){
+            query.add([modelName, chain_num, "state", utt, emo, s], Math.exp(statePrediction.score(s)))
+          })
+        }
+
+
+        // record social goal predictions
+        if (hasSocGoal) {
+          var socSupport = socGoalPrediction.support()
+          foreach(socSupport, function(sg){
+            query.add([modelName, chain_num, "socGoal", utt, emo, sg], Math.exp(socGoalPrediction.score(sg)))
+          })
+        }
+
+        // record informational goal predictions
+        if (hasInfGoal) {
+          var infSupport = infGoalPrediction.support()
+          foreach(infSupport, function(ig){
+            query.add([modelName, chain_num, "infGoal", utt, emo, ig], Math.exp(infGoalPrediction.score(ig)))
+          })
+        }
+
+        // record emoComm variable
+        if (hasEmoComm) {
+          var emoCommPrediction = marginalize(modelPrediction, "emoComm")
+          query.add([modelName, chain_num, "emoComm", utt, emo, true], Math.exp(emoCommPrediction.score(true)))
+        }
+
+        })
+      })
+    })
+  })
+
+  query.add([modelName, chain_num, "parameter", "speakerOptimality", "NA", "NA"], speakerOptimality)
+
+  // record emoIsCommPrior parameters
+  query.add([modelName, chain_num, "parameter", "emoIsCommPrior", "communicative", "NA"], emoIsCommPrior.comm)
+  query.add([modelName, chain_num, "parameter", "emoIsCommPrior", "noncommunicative", "NA"], emoIsCommPrior.non_comm)
+  query.add([modelName, chain_num, "parameter", "emoIsCommPrior", "communicative", "NA"], emoIsCommPrior.no_info)
+
+  // record statePrior parameters
+  query.add([modelName, chain_num, "parameter", "statePrior", "good", "mu"], statePriorHyperParams.good.mu)
+  query.add([modelName, chain_num, "parameter", "statePrior", "bad", "mu"], statePriorHyperParams.bad.mu)
+  query.add([modelName, chain_num, "parameter", "statePrior", "no_info", "mu"], statePriorHyperParams.no_info.mu)
+
+  query.add([modelName, chain_num, "parameter", "statePrior", "good", "sigma"], statePriorHyperParams.good.sigma)
+  query.add([modelName, chain_num, "parameter", "statePrior", "bad", "sigma"], statePriorHyperParams.bad.sigma)
+  query.add([modelName, chain_num, "parameter", "statePrior", "no_info", "sigma"], statePriorHyperParams.no_info.sigma)
+
+  // record goalPrior parameters
+  query.add([modelName, chain_num, "parameter", "infGoalPrior", "inf", "mu"], goalWeightPriors.inf.inf_goal.mu)
+  query.add([modelName, chain_num, "parameter", "infGoalPrior", "soc", "mu"], goalWeightPriors.soc.inf_goal.mu)
+  query.add([modelName, chain_num, "parameter", "infGoalPrior", "no_info", "mu"], goalWeightPriors.no_info.inf_goal.mu)
+
+  query.add([modelName, chain_num, "parameter", "infGoalPrior", "inf", "sigma"], goalWeightPriors.inf.inf_goal.sigma)
+  query.add([modelName, chain_num, "parameter", "infGoalPrior", "soc", "sigma"], goalWeightPriors.soc.inf_goal.sigma)
+  query.add([modelName, chain_num, "parameter", "infGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.inf_goal.sigma)
+
+  query.add([modelName, chain_num, "parameter", "socGoalPrior", "inf", "mu"], goalWeightPriors.inf.soc_goal.mu)
+  query.add([modelName, chain_num, "parameter", "socGoalPrior", "soc", "mu"], goalWeightPriors.soc.soc_goal.mu)
+  query.add([modelName, chain_num, "parameter", "socGoalPrior", "no_info", "mu"], goalWeightPriors.no_info.soc_goal.mu)
+
+  query.add([modelName, chain_num, "parameter", "socGoalPrior", "inf", "sigma"], goalWeightPriors.inf.soc_goal.sigma)
+  query.add([modelName, chain_num, "parameter", "socGoalPrior", "soc", "sigma"], goalWeightPriors.soc.soc_goal.sigma)
+  query.add([modelName, chain_num, "parameter", "socGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.soc_goal.sigma)
+
+  if (modelHasWeights) {
+    query.add([modelName, chain_num, "parameter", "goalExp", "NA", "NA"], goalExp)
+    query.add([modelName, chain_num, "parameter", "goalScale", "NA", "NA"], goalScale)
+  }
+
+  return query
+
+}
+
+
+var totalIterations = 20000, lag =  1;
+// var totalIterations = 20000, lag =  1;
+// var totalIterations = 2000, lag =  1;
+var samples = totalIterations/(lag + 1), burn = totalIterations;// / 2;
+
+var outfile = 'bda-' + modelName + '-manipulatedConditions_' +
+  totalIterations+ '_burn' + burn +
+  '_lag' + lag + '_chain' + chain_num + '.csv'
+
+var header = "iter,model,chain,parameter,utt,emo,value,prob,score"
+
+var callback = webpplSampleWriter.streamQueryCSV("bda_results/" + outfile, header);
+
+Infer({model: model,
+      samples: samples,
+      burn: burn, lag: lag,
+       method: 'incrementalMH',
+       onlyMAP: true,
+       verbose: T,
+       verboseLag: totalIterations / 20,
+       callbacks: [callback]
+     });
+
+"written to " + outfile;

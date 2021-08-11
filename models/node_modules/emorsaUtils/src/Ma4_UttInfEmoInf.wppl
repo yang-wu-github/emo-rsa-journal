@@ -1,0 +1,53 @@
+var Ma4_UttInfEmoInf = function(utterance, emotion, params){
+
+	var listener0 = cache(function(utt_emo, params) {
+
+		var uttMeaning = function(utterance, state){
+			return flip(params.literalMeanings[utterance][state]);
+		};
+
+	  Infer({model: function(){
+	    var state = uniformDraw(states);
+	    var u = uttMeaning(utt_emo, state);
+	    condition(u);
+	    return state;
+	  }})
+	}, 10000);
+
+	var speaker1 = cache(function(state, params) {
+	  Infer({model: function(){
+
+	    var utterance = uniformDraw(utterances);
+			var L0Utt = listener0(utterance, params);
+	    var utilitiesUtt = L0Utt.score(state);
+
+	    var emotion = uniformDraw(emotions);
+			var L0Emo = listener0(emotion, params);
+			var utilitiesEmo = L0Emo.score(state);
+
+	    var speakerUtility = (utilitiesUtt + utilitiesEmo)/2;
+
+	    factor(params.speakerOptimality * speakerUtility);
+
+	    return {utterance, emotion};
+	  }})
+	}, 10000);
+
+	var listener1 = cache(function(utterance, emotion, params) {
+	  Infer({model: function(){
+
+	    var state = uniformDraw(states);
+	    var S1 = speaker1(state, params);
+
+	    observe(S1, {utterance, emotion})
+
+	    return {
+	      state: state
+	    }
+
+	  }})
+	}, 10000);
+
+	return listener1(utterance, emotion, params)
+
+}
