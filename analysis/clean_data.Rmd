@@ -1,0 +1,390 @@
+---
+title: "Clean Data"
+author: "Yang Wu"
+date: "8/13/2021"
+output: html_document
+---
+
+Load packages
+```{r setup, include=FALSE}
+library(here)
+library(ggplot2)
+library(tidyverse)
+library(langcog) 
+rm(list = ls())
+```
+
+##Semantics
+```{r}
+d.raw <- read.csv(here("data/210720emoRSA_Semantics_August 5, 2021_18.14.csv"))
+d <- d.raw %>%
+  slice(-1:-5) %>% # remove preview and pilot data
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","trial","state")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(response = case_when(response == "Yes" ~ 1,
+                              response == "No" ~ 0),
+         trial = case_when(trial == 1 ~ "good",
+                          trial == 2 ~ "bad",
+                          trial == 3 ~ "smile",
+                          trial == 4 ~ "frown"),
+         trial = factor(trial, levels = c("good", "bad", "smile", "frown"))) %>%
+    filter(response != "")
+
+checks <- d %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got 75% or more check questions correct
+d2 <- full_join(d, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  filter %>%
+  select(-Check1, -Check2, -Check3, -Check4, -check_perc_correct)
+
+d2 %>%
+  group_by(trial, state) %>%
+  summarize(
+    k = sum(response),
+    n = n(),
+    a = 1 + k,
+    b = 1 + n - k 
+  ) %>%
+  write_csv(., here("data/clean_semantics_params.csv"))
+```
+##State inference
+###State manipulation
+```{r}
+d.mnpltState.raw <- read.csv(here("data/210520emoRSA_MainStateManipulation_STATE_August 5, 2021_18.30.csv"))
+
+d.mnpltState <- d.mnplt.state.raw %>%
+  slice(-1:-5) %>%
+  slice(-61) %>%
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","utt_exp","condition_level")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(utt = case_when(utt_exp == 1 ~ "good",
+                         utt_exp == 2 ~ "bad",
+                         utt_exp == 3 ~ "good",
+                         utt_exp == 4 ~ "bad"),
+         exp = case_when(utt_exp == 1 ~ "smile",
+                         utt_exp == 2 ~ "smile",
+                         utt_exp == 3 ~ "frown",
+                         utt_exp == 4 ~ "frown"),
+         condition_name = "state_manipulation",
+         condition_level = case_when(condition_level == 1 ~ "good",
+                                     condition_level == 2 ~ "bad",
+                                     condition_level == 3 ~ "no_info")
+         #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
+         #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
+         ) %>%
+  filter(response != "") 
+
+checks <- d.mnpltState %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got all check questions correct
+d.mnpltState <- full_join(d.mnpltState, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  select(-starts_with("Check"), -person, -check_perc_correct, -utt_exp) 
+```
+###Goal manipulation
+```{r}
+d.mnpltGoal.raw <- read.csv(here("data/210708emoRSA_InfoSocGoalManipulation_STATE_August 5, 2021_18.15.csv"))
+
+d.mnpltGoal <- d.mnpltGoal.raw %>%
+  slice(-1:-5) %>%
+  slice(-61) %>%
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","utt_exp","condition_level")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(utt = case_when(utt_exp == 1 ~ "good",
+                         utt_exp == 2 ~ "bad",
+                         utt_exp == 3 ~ "good",
+                         utt_exp == 4 ~ "bad"),
+         exp = case_when(utt_exp == 1 ~ "smile",
+                         utt_exp == 2 ~ "smile",
+                         utt_exp == 3 ~ "frown",
+                         utt_exp == 4 ~ "frown"),
+         condition_name = "goal_manipulation",
+         condition_level = case_when(condition_level == 1 ~ "inf_goal",
+                                     condition_level == 2 ~ "soc_goal",
+                                     condition_level == 3 ~ "no_info")
+         #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
+         #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
+         ) %>%
+  filter(response != "") 
+
+checks <- d.mnpltGoal %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got all check questions correct
+d.mnpltGoal <- full_join(d.mnpltGoal, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  select(-starts_with("Check"), -person, -check_perc_correct, -utt_exp) 
+```
+###EmoComm manipulation
+```{r}
+d.mnpltEmoComm.raw <- read.csv(here("data/210708emoRSA_EmoCommManipulation_STATE_August 5, 2021_18.21.csv"))
+
+d.mnpltEmoComm <- d.mnpltEmoComm.raw %>%
+  slice(-1:-6) %>%
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","utt_exp","condition_level")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(utt = case_when(utt_exp == 1 ~ "good",
+                         utt_exp == 2 ~ "bad",
+                         utt_exp == 3 ~ "good",
+                         utt_exp == 4 ~ "bad"),
+         exp = case_when(utt_exp == 1 ~ "smile",
+                         utt_exp == 2 ~ "smile",
+                         utt_exp == 3 ~ "frown",
+                         utt_exp == 4 ~ "frown"),
+         condition_name = "emoIsComm_manipulation",
+         condition_level = case_when(condition_level == 1 ~ "comm",
+                                     condition_level == 2 ~ "non_comm",
+                                     condition_level == 3 ~ "no_info")
+         #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
+         #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
+         ) %>%
+  filter(response != "") 
+
+checks <- d.mnpltEmoComm %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got all check questions correct
+d.mnpltEmoComm <- full_join(d.mnpltEmoComm, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  select(-starts_with("Check"), -person, -check_perc_correct, -utt_exp) 
+```
+###Combined
+```{r}
+d_combined <- rbind(d.mnpltState, d.mnpltGoal, d.mnpltEmoComm)
+write_csv(d_combined, here("data/clean_data_true_state.csv"))
+```
+
+##Goal inference
+###State manipulation
+```{r}
+d.goal.mnpltState.raw <- read.csv(here("data/210520emoRSA_MainStateManipulation_COMMGOALS_August 5, 2021_18.29.csv"))
+
+d.goal.mnpltState <- d.goal.mnpltState.raw %>%
+  slice(-1:-5) %>%
+  slice(-61) %>%
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","utt_exp","condition_level", "question")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(utt = case_when(utt_exp == 1 ~ "good",
+                         utt_exp == 2 ~ "bad",
+                         utt_exp == 3 ~ "good",
+                         utt_exp == 4 ~ "bad"),
+         exp = case_when(utt_exp == 1 ~ "smile",
+                         utt_exp == 2 ~ "smile",
+                         utt_exp == 3 ~ "frown",
+                         utt_exp == 4 ~ "frown"),
+         condition_name = "state_manipulation",
+         condition_level = case_when(condition_level == 1 ~ "good",
+                                     condition_level == 2 ~ "bad",
+                                     condition_level == 3 ~ "no_info"),
+         question = case_when(question == "feed" ~ "informational goal",
+                              question == "nice" ~ "social goal"),
+         response = case_when(response == "Not At All\nLikely" ~ 1,
+                              response == "Somewhat\nLikely" ~ 2,
+                              response == "Very\nLikely" ~ 3,
+                              response == "Extremely\nLikely" ~ 4)
+         #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
+         #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
+         ) %>%
+  filter(response != "") 
+
+checks <- d.goal.mnpltState %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got all check questions correct
+d.goal.mnpltState <- full_join(d.goal.mnpltState, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  select(-starts_with("Check"), -person, -check_perc_correct, -utt_exp) 
+```
+
+###Goal manipulation
+```{r}
+d.goal.mnpltGoal.raw <- read.csv(here("data/210708emoRSA_InfoSocGoalManipulation_COMMGOALS_August 5, 2021_18.17.csv"))
+
+d.goal.mnpltGoal <- d.goal.mnpltGoal.raw %>%
+  slice(-1:-6) %>%
+  slice(-61) %>%
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","utt_exp","condition_level", "question")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(utt = case_when(utt_exp == 1 ~ "good",
+                         utt_exp == 2 ~ "bad",
+                         utt_exp == 3 ~ "good",
+                         utt_exp == 4 ~ "bad"),
+         exp = case_when(utt_exp == 1 ~ "smile",
+                         utt_exp == 2 ~ "smile",
+                         utt_exp == 3 ~ "frown",
+                         utt_exp == 4 ~ "frown"),
+         condition_name = "goal_manipulation",
+         condition_level = case_when(condition_level == 1 ~ "inf_goal",
+                                     condition_level == 2 ~ "soc_goal",
+                                     condition_level == 3 ~ "no_info"),
+         question = case_when(question == "feed" ~ "informational goal",
+                              question == "nice" ~ "social goal"),
+         response = case_when(response == "Not At All\nLikely" ~ 1,
+                              response == "Somewhat\nLikely" ~ 2,
+                              response == "Very\nLikely" ~ 3,
+                              response == "Extremely\nLikely" ~ 4)
+         #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
+         #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
+         ) %>%
+  filter(response != "") 
+
+checks <- d.goal.mnpltGoal %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got all check questions correct
+d.goal.mnpltGoal <- full_join(d.goal.mnpltGoal, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  select(-starts_with("Check"), -person, -check_perc_correct, -utt_exp) 
+```
+###EmoComm manipulation
+```{r}
+d.goal.mnpltEmoComm.raw <- read.csv(here("data/210708emoRSA_EmoCommManipulation_COMMGOALS_August 5, 2021_18.27.csv"))
+
+d.goal.mnpltEmoComm <- d.goal.mnpltEmoComm.raw %>%
+  slice(-1:-6) %>%
+  select(ResponseId, starts_with("X"), starts_with("Check")) %>%
+  pivot_longer(cols = starts_with("X"), 
+               names_to = "trial", values_to = "response") %>%
+  separate(trial, into=c("person","utt_exp","condition_level", "question")) %>%
+  rename(id = `ResponseId`) %>%
+  mutate(utt = case_when(utt_exp == 1 ~ "good",
+                         utt_exp == 2 ~ "bad",
+                         utt_exp == 3 ~ "good",
+                         utt_exp == 4 ~ "bad"),
+         exp = case_when(utt_exp == 1 ~ "smile",
+                         utt_exp == 2 ~ "smile",
+                         utt_exp == 3 ~ "frown",
+                         utt_exp == 4 ~ "frown"),
+         condition_name = "emoIsComm_manipulation",
+         condition_level = case_when(condition_level == 1 ~ "comm",
+                                     condition_level == 2 ~ "non_comm",
+                                     condition_level == 3 ~ "no_info"),
+         question = case_when(question == "feed" ~ "informational goal",
+                              question == "nice" ~ "social goal"),
+         response = case_when(response == "Not At All\nLikely" ~ 1,
+                              response == "Somewhat\nLikely" ~ 2,
+                              response == "Very\nLikely" ~ 3,
+                              response == "Extremely\nLikely" ~ 4)
+         #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
+         #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
+         ) %>%
+  filter(response != "") 
+
+checks <- d.goal.mnpltEmoComm %>%
+  mutate(check_score1 = case_when(grepl("H", Check1, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score2 = case_when(grepl("L", Check2, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score3 = case_when(grepl("O", Check3, ignore.case = TRUE) 
+                                  | grepl("0", Check3, ignore.case = TRUE) ~ 1, TRUE ~ 0),
+         check_score4 = case_when(grepl("U", Check4, ignore.case = TRUE) ~ 1, TRUE ~ 0)) %>%
+  group_by(id) %>%
+  summarize(check_perc_correct = mean(c(check_score1, check_score2, check_score3, check_score4)))
+
+ggplot(checks, aes(check_perc_correct)) +
+  geom_histogram(binwidth=.01) +
+  theme_bw() +
+  xlab("accuracy on check questions") +
+  ylab("number of participants")
+
+# Only include those who got all check questions correct
+d.goal.mnpltEmoComm <- full_join(d.goal.mnpltEmoComm, checks) %>%
+  filter(check_perc_correct == 1) %>%
+  select(-starts_with("Check"), -person, -check_perc_correct, -utt_exp) 
+```
+###Combined
+```{r}
+d.goal.combined <- rbind(d.goal.mnpltState, d.goal.mnpltGoal, d.goal.mnpltEmoComm)
+write_csv(d.goal.combined, here("data/clean_data_goals.csv"))
+```
