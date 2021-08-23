@@ -1,0 +1,60 @@
+var Mb0_UttBalEmoNon = function(utterance, emotion, params){
+
+	var listener0 = cache(function(utt_emo, params) {
+
+		var uttMeaning = function(utterance, state){
+			return flip(params.literalMeanings[utterance][state]);
+		};
+
+	  Infer({model: function(){
+	    var state = uniformDraw(states);
+	    var u = uttMeaning(utt_emo, state);
+	    condition(u);
+	    return state;
+	  }})
+	}, 10000);
+
+
+	var speaker1 = cache(function(state, infGoal, socGoal, params) {
+	  Infer({model: function(){
+
+	    var utterance = uniformDraw(utterances);
+	    var L0Utt = listener0(utterance, params);
+
+	    var utilitiesUtt = {
+	      inf: L0Utt.score(state), // log P(s | u)
+	      soc: expectation(L0Utt) // E[s]
+	    }
+	    var speakerUtility = infGoal * utilitiesUtt.inf +
+	        socGoal * utilitiesUtt.soc;
+
+	    var emotion = uniformDraw(emotions);
+
+	    factor(params.speakerOptimality * speakerUtility);
+
+	    return {utterance, emotion};
+	  }})
+	}, 10000);
+
+	var listener1 = cache(function(utterance, emotion, params) {
+	  Infer({model: function(){
+
+			var infGoal = categorical({vs: params.weightBins, ps: infGoalWeights})
+	    var socGoal = categorical({vs: params.weightBins, ps: socGoalWeights})
+	    var state = uniformDraw(states);
+	    var S1 = speaker1(state, infGoal, socGoal, params);
+
+	    observe(S1, {utterance, emotion})
+
+	    return {
+	      state: state,
+				infGoal: findWeightIndex(infGoal, params.weightBins),
+				socGoal: findWeightIndex(socGoal, params.weightBins)
+	    }
+
+	  }})
+	}, 10000);
+
+	return listener1(utterance, emotion, params)
+
+}
