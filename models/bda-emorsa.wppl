@@ -15,7 +15,7 @@ var semObjects = levels(df_semantics, "trial")
 var semObjDict = {Bad: "bad", Good: "good", Pos: "smile", Neg: "frown"}
 
 var modelObj = {
-  Ma0_UttInfEmoNon,
+  Ma0_UttInfEmoNon: Ma0_UttInfEmoNon,
   Ma1_UttInfEmoSoc,
   Ma2_UttInfEmoBal,
   Ma3_UttInfEmoTru,
