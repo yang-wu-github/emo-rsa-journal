@@ -257,7 +257,7 @@ var model = function(){
         if (hasState) {
           var stateSupport = statePrediction.support()
           foreach(stateSupport, function(s){
-            query.add([modelName, chain_num, "state", utt, emo, s], Math.exp(statePrediction.score(s)))
+            query.add([modelName, chain_num, condition_name, condition_level, "state", utt, emo, s], Math.exp(statePrediction.score(s)))
           })
         }
 
@@ -266,7 +266,7 @@ var model = function(){
         if (hasSocGoal) {
           var socSupport = socGoalPrediction.support()
           foreach(socSupport, function(sg){
-            query.add([modelName, chain_num, "socGoal", utt, emo, sg], Math.exp(socGoalPrediction.score(sg)))
+            query.add([modelName, chain_num, condition_name, condition_level, "socGoal", utt, emo, sg], Math.exp(socGoalPrediction.score(sg)))
           })
         }
 
@@ -274,14 +274,14 @@ var model = function(){
         if (hasInfGoal) {
           var infSupport = infGoalPrediction.support()
           foreach(infSupport, function(ig){
-            query.add([modelName, chain_num, "infGoal", utt, emo, ig], Math.exp(infGoalPrediction.score(ig)))
+            query.add([modelName, chain_num, condition_name, condition_level, "infGoal", utt, emo, ig], Math.exp(infGoalPrediction.score(ig)))
           })
         }
 
         // record emoComm variable
         if (hasEmoComm) {
           var emoCommPrediction = marginalize(modelPrediction, "emoComm")
-          query.add([modelName, chain_num, "emoComm", utt, emo, true], Math.exp(emoCommPrediction.score(true)))
+          query.add([modelName, chain_num, condition_name, condition_level, "emoComm", utt, emo, true], Math.exp(emoCommPrediction.score(true)))
         }
 
         })
@@ -289,42 +289,42 @@ var model = function(){
     })
   })
 
-  query.add([modelName, chain_num, "parameter", "speakerOptimality", "NA", "NA"], speakerOptimality)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "speakerOptimality", "NA", "NA"], speakerOptimality)
 
   // record emoIsCommPrior parameters
-  query.add([modelName, chain_num, "parameter", "emoIsCommPrior", "communicative", "NA"], emoIsCommPrior.comm)
-  query.add([modelName, chain_num, "parameter", "emoIsCommPrior", "noncommunicative", "NA"], emoIsCommPrior.non_comm)
-  query.add([modelName, chain_num, "parameter", "emoIsCommPrior", "communicative", "NA"], emoIsCommPrior.no_info)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "emoIsCommPrior", "communicative", "NA"], emoIsCommPrior.comm)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "emoIsCommPrior", "noncommunicative", "NA"], emoIsCommPrior.non_comm)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "emoIsCommPrior", "no_info", "NA"], emoIsCommPrior.no_info)
 
   // record statePrior parameters
-  query.add([modelName, chain_num, "parameter", "statePrior", "good", "mu"], statePriorHyperParams.good.mu)
-  query.add([modelName, chain_num, "parameter", "statePrior", "bad", "mu"], statePriorHyperParams.bad.mu)
-  query.add([modelName, chain_num, "parameter", "statePrior", "no_info", "mu"], statePriorHyperParams.no_info.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "statePrior", "good", "mu"], statePriorHyperParams.good.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "statePrior", "bad", "mu"], statePriorHyperParams.bad.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "statePrior", "no_info", "mu"], statePriorHyperParams.no_info.mu)
 
-  query.add([modelName, chain_num, "parameter", "statePrior", "good", "sigma"], statePriorHyperParams.good.sigma)
-  query.add([modelName, chain_num, "parameter", "statePrior", "bad", "sigma"], statePriorHyperParams.bad.sigma)
-  query.add([modelName, chain_num, "parameter", "statePrior", "no_info", "sigma"], statePriorHyperParams.no_info.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "statePrior", "good", "sigma"], statePriorHyperParams.good.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "statePrior", "bad", "sigma"], statePriorHyperParams.bad.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "statePrior", "no_info", "sigma"], statePriorHyperParams.no_info.sigma)
 
   // record goalPrior parameters
-  query.add([modelName, chain_num, "parameter", "infGoalPrior", "inf", "mu"], goalWeightPriors.inf.inf_goal.mu)
-  query.add([modelName, chain_num, "parameter", "infGoalPrior", "soc", "mu"], goalWeightPriors.soc.inf_goal.mu)
-  query.add([modelName, chain_num, "parameter", "infGoalPrior", "no_info", "mu"], goalWeightPriors.no_info.inf_goal.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "infGoalPrior", "inf", "mu"], goalWeightPriors.inf.inf_goal.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "infGoalPrior", "soc", "mu"], goalWeightPriors.soc.inf_goal.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "infGoalPrior", "no_info", "mu"], goalWeightPriors.no_info.inf_goal.mu)
 
-  query.add([modelName, chain_num, "parameter", "infGoalPrior", "inf", "sigma"], goalWeightPriors.inf.inf_goal.sigma)
-  query.add([modelName, chain_num, "parameter", "infGoalPrior", "soc", "sigma"], goalWeightPriors.soc.inf_goal.sigma)
-  query.add([modelName, chain_num, "parameter", "infGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.inf_goal.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "infGoalPrior", "inf", "sigma"], goalWeightPriors.inf.inf_goal.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "infGoalPrior", "soc", "sigma"], goalWeightPriors.soc.inf_goal.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "infGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.inf_goal.sigma)
 
-  query.add([modelName, chain_num, "parameter", "socGoalPrior", "inf", "mu"], goalWeightPriors.inf.soc_goal.mu)
-  query.add([modelName, chain_num, "parameter", "socGoalPrior", "soc", "mu"], goalWeightPriors.soc.soc_goal.mu)
-  query.add([modelName, chain_num, "parameter", "socGoalPrior", "no_info", "mu"], goalWeightPriors.no_info.soc_goal.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "inf", "mu"], goalWeightPriors.inf.soc_goal.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "soc", "mu"], goalWeightPriors.soc.soc_goal.mu)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "no_info", "mu"], goalWeightPriors.no_info.soc_goal.mu)
 
-  query.add([modelName, chain_num, "parameter", "socGoalPrior", "inf", "sigma"], goalWeightPriors.inf.soc_goal.sigma)
-  query.add([modelName, chain_num, "parameter", "socGoalPrior", "soc", "sigma"], goalWeightPriors.soc.soc_goal.sigma)
-  query.add([modelName, chain_num, "parameter", "socGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.soc_goal.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "inf", "sigma"], goalWeightPriors.inf.soc_goal.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "soc", "sigma"], goalWeightPriors.soc.soc_goal.sigma)
+  query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.soc_goal.sigma)
 
   if (modelHasWeights) {
-    query.add([modelName, chain_num, "parameter", "goalExp", "NA", "NA"], goalExp)
-    query.add([modelName, chain_num, "parameter", "goalScale", "NA", "NA"], goalScale)
+    query.add([modelName, chain_num, "NA", "NA", "parameter", "goalExp", "NA", "NA"], goalExp)
+    query.add([modelName, chain_num, "NA", "NA", "parameter", "goalScale", "NA", "NA"], goalScale)
   }
 
   return query
@@ -332,7 +332,7 @@ var model = function(){
 }
 
 
-var totalIterations = 5, lag =  1;
+var totalIterations = 10, lag =  1;
 // var totalIterations = 20000, lag =  1;
 // var totalIterations = 2000, lag =  1;
 var samples = totalIterations/(lag + 1), burn = totalIterations;// / 2;
@@ -341,7 +341,7 @@ var outfile = 'bda-' + modelName + '-manipulatedConditions_' +
   totalIterations+ '_burn' + burn +
   '_lag' + lag + '_chain' + chain_num + '.csv'
 
-var header = "iter,model,chain,parameter,utt,emo,value,prob,score"
+var header = "iter,model,chain,manipulation, manipulation_level, parameter,utt,emo,value,prob,score"
 
 var callback = webpplSampleWriter.streamQueryCSV("bda_results/" + outfile, header);
 
