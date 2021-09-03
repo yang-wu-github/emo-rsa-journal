@@ -69,7 +69,7 @@ d2 %>%
 ```{r}
 d.mnpltState.raw <- read.csv(here("data/210520emoRSA_MainStateManipulation_STATE_August 5, 2021_18.30.csv"))
 
-d.mnpltState <- d.mnplt.state.raw %>%
+d.mnpltState <- d.mnpltState.raw %>%
   slice(-1:-5) %>%
   slice(-61) %>%
   select(ResponseId, starts_with("X"), starts_with("Check")) %>%
@@ -92,6 +92,7 @@ d.mnpltState <- d.mnplt.state.raw %>%
          #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
          #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
          ) %>%
+  filter(condition_level != "NA") %>% 
   filter(response != "") 
 
 checks <- d.mnpltState %>%
@@ -141,6 +142,7 @@ d.mnpltGoal <- d.mnpltGoal.raw %>%
          #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
          #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
          ) %>%
+  filter(condition_level != "NA") %>% 
   filter(response != "") 
 
 checks <- d.mnpltGoal %>%
@@ -189,6 +191,7 @@ d.mnpltEmoComm <- d.mnpltEmoComm.raw %>%
          #condition = fct_relevel(condition, "PU_PE", "PU_NE", "NU_PE", "NU_NE"),
          #response = fct_relevel(response, "1", "2", "3", "4", "5", "6")
          ) %>%
+  filter(condition_level != "NA") %>% 
   filter(response != "") 
 
 checks <- d.mnpltEmoComm %>%
