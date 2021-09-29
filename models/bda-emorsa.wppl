@@ -332,7 +332,7 @@ var model = function(){
 }
 
 
-var totalIterations = 10, lag =  1;
+var totalIterations = 20000, lag =  4;
 // var totalIterations = 20000, lag =  1;
 // var totalIterations = 2000, lag =  1;
 var samples = totalIterations/(lag + 1), burn = totalIterations;// / 2;
