@@ -1,4 +1,4 @@
-// webppl bda-emorsa.wppl --require webppl-csv --require ~/tools/webppl-sample-writer-fork --require emorsaUtils 1
+// webppl bda-emorsa.wppl --require webppl-csv --require ~/tools/webppl-sample-writer-fork --require emorsaUtils 16
 
 // this script will run 1 chain of 1 model
 var args = process.argv
@@ -218,9 +218,9 @@ var model = function(){
         var socGoalPrediction = hasSocGoal ? marginalize(modelPrediction, "socGoal") : null
         var infGoalPrediction = hasInfGoal ? marginalize(modelPrediction, "infGoal"): null
 
-        // // OBSERVE DATA
-        // display('state')
-        // display(state_data)
+        // OBSERVE DATA
+        display('state')
+        display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
         // observe state data
         if (hasState) {
           mapData({data: state_data}, function(d){
@@ -231,8 +231,7 @@ var model = function(){
         }
 
         // display('soc goal')
-        // display(socGoal_data)
-        // observe social goal data
+        display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
         if (hasSocGoal) {
           mapData({data: socGoal_data}, function(d){
             var scr = socGoalPrediction.score(d)
@@ -243,6 +242,7 @@ var model = function(){
 
         // display('inf goal')
         // display(infGoal_data)
+        display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
         // observe informational goal data
         if (hasInfGoal) {
           mapData({data: infGoal_data}, function(d){
@@ -332,9 +332,9 @@ var model = function(){
 }
 
 
-var totalIterations = 20000, lag =  4;
+// var totalIterations = 20000, lag =  4; // parameters ran
 // var totalIterations = 20000, lag =  1;
-// var totalIterations = 2000, lag =  1;
+var totalIterations = 5, lag =  1;
 var samples = totalIterations/(lag + 1), burn = totalIterations;// / 2;
 
 var outfile = 'bda-' + modelName + '-manipulatedConditions_' +
