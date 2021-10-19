@@ -72,7 +72,7 @@ h_state_summary <- h_state %>%
 
 ### Distributions of responses
 
-```{r fig1, fig.height=6, fig.width=10}
+```{r fig10, fig.height=6, fig.width=10}
 plot_state_emoIsComm <- h_state_summary[h_state_summary$manipulation == "emoIsComm_manipulation",] %>%
       ggplot(., aes( x = state, y = mean, ymin = ci_lower, ymax = ci_upper))+
       geom_col(position = position_dodge())+
@@ -121,7 +121,7 @@ h_soc_summary <- h_goal_summary[h_goal_summary$question=="social goal",]
 
 ### Distributions of responses
 informational goals
-```{r fig2, fig.height=6, fig.width=10}
+```{r fig11, fig.height=6, fig.width=10}
 plot_inf_emoIsComm <- h_inf_summary[h_inf_summary$manipulation == "emoIsComm_manipulation",] %>%
       ggplot(., aes( x = response, y = mean, ymin = ci_lower, ymax = ci_upper))+
       geom_col(position = position_dodge())+
@@ -152,7 +152,7 @@ plot_inf_inference
 # ggsave(here(paste("/models/figures/mb7_inf_inference.pdf")), width = 12, height = 6)
 ```
 social goals
-```{r fig3, fig.height=6, fig.width=10}
+```{r fig12, fig.height=6, fig.width=10}
 plot_soc_emoIsComm <- h_soc_summary[h_soc_summary$manipulation == "emoIsComm_manipulation",] %>%
       ggplot(., aes( x = response, y = mean, ymin = ci_lower, ymax = ci_upper))+
       geom_col(position = position_dodge())+
@@ -213,7 +213,7 @@ df.m <- map_dfr(model.files, function(model.file){
 
 ## Global parameters
 
-```{r fig4, fig.height=5, fig.width=10}
+```{r fig13, fig.height=5, fig.width=10}
 df.m %>%
   filter(parameter == "parameter", is.na(emo)) %>%
   ggplot(., aes(x = prob))+
@@ -242,7 +242,7 @@ df_parameter_summary %>%
 
 ## Prior parameters
 
-```{r fig5, fig.height=5, fig.width=10}
+```{r fig14, fig.height=5, fig.width=10}
 df.m %>%
   filter(parameter == "parameter", is.na(emo) == FALSE) %>%
   ggplot(., aes(x = prob))+
@@ -287,6 +287,34 @@ df_state_summary <- df_state %>%
   )
 ```
 
+### response distribution
+```{r fig9, fig.height=6, fig.width=10}
+plot_df_state_emoIsComm <- df_state_summary[df_state_summary$manipulation == "emoIsComm_manipulation",] %>%
+      ggplot(., aes( x = state, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("emoIsComm manipulation")+
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_state_goal <- df_state_summary[df_state_summary$manipulation == "goal_manipulation",] %>%
+      ggplot(., aes( x = state, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("goal manipulation")+
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_state_state <- df_state_summary[df_state_summary$manipulation == "state_manipulation",] %>%
+      mutate(manipulation_level = factor(manipulation_level, levels = c("bad", "no_info", "good"))) %>%
+      ggplot(., aes( x = state, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("state manipulation")+
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_state_inference <- plot_df_state_emoIsComm + plot_df_state_goal + plot_df_state_state 
+plot_state_inference # human
+plot_df_state_inference # model
+```
 ### join with human data
 
 ```{r}
@@ -487,9 +515,74 @@ df_goal_summary <- df_goal %>%
     cred_upper = hpd_upper(prob),
     cred_lower = hpd_lower(prob)
   )
+df_inf_summary <- df_goal_summary[df_goal_summary$parameter=="infGoal",]
+df_soc_summary <- df_goal_summary[df_goal_summary$parameter=="socGoal",]
 ```
-
-
+### Distribution of responses
+informational goals
+```{r fig2, fig.height=6, fig.width=10}
+plot_df_inf_emoIsComm <- df_inf_summary[df_inf_summary$manipulation == "emoIsComm_manipulation",] %>%
+      ggplot(., aes( x = rating, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("emoIsComm manipulation")+
+      xlab("inf goal") +
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_inf_goal <- df_inf_summary[df_inf_summary$manipulation == "goal_manipulation",] %>%
+      ggplot(., aes( x = rating, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("goal manipulation")+
+      xlab("inf goal") +
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_inf_state <- df_inf_summary[df_inf_summary$manipulation == "state_manipulation",] %>%
+      mutate(manipulation_level = factor(manipulation_level, levels = c("bad", "no_info", "good"))) %>%
+      ggplot(., aes( x = rating, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("state manipulation")+
+      xlab("inf goal") +
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_inf_inference <- plot_df_inf_emoIsComm + plot_df_inf_state + plot_df_inf_goal
+plot_inf_inference # human
+plot_df_inf_inference # model
+# ggsave(here(paste("/models/figures/mb7_inf_inference.pdf")), width = 12, height = 6)
+```
+social goals
+```{r fig3, fig.height=6, fig.width=10}
+plot_df_soc_emoIsComm <- df_soc_summary[df_soc_summary$manipulation == "emoIsComm_manipulation",] %>%
+      ggplot(., aes( x = rating, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("emoIsComm manipulation")+
+      xlab("soc goal") +
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_soc_goal <- df_soc_summary[df_soc_summary$manipulation == "goal_manipulation",] %>%
+      ggplot(., aes( x = rating, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("goal manipulation")+
+      xlab("soc goal") +
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_soc_state <- df_soc_summary[df_soc_summary$manipulation == "state_manipulation",] %>%
+      mutate(manipulation_level = factor(manipulation_level, levels = c("bad", "no_info", "good"))) %>%
+      ggplot(., aes( x = rating, y = MAP, ymin = cred_lower, ymax = cred_upper))+
+      geom_col(position = position_dodge())+
+      geom_linerange(position = position_dodge())+
+      ggtitle("state manipulation")+
+      xlab("soc goal") +
+      theme(plot.title = element_text(hjust = 0.5))+
+      facet_grid(rows=vars(utt, emo), cols=vars(manipulation_level))
+plot_df_soc_inference <- plot_df_soc_emoIsComm + plot_df_soc_goal + plot_df_soc_state 
+plot_soc_inference #human
+plot_df_soc_inference # model
+# ggsave(here(paste("/models/figures/mb7_soc_inference.pdf")), width = 12, height = 6)
+```
 ### join with human data
 
 ```{r}
