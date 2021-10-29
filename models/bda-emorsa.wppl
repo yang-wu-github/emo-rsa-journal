@@ -95,6 +95,10 @@ var model = function(){
 
   var goalExp = modelHasWeights ? uniformDrift({a: 0, b: 5, width: 1}) : 1
   var goalScale = modelHasWeights ? uniformDrift({a: 0, b: 100, width: 10}) : 1 // aug 11, 2021: mh not sure why we need goal scale? but maybe to add more flexibility to modulating the distance between points on goal scale
+	// YW: from the CogSci paper: "We include two additional global parameters to the data analysis, 
+	// in which we model the goal-weight scale as an ordinal, but not necessarily linear, scale 
+	// (e.g., the psychological distance between goal ratings of 1 and 2 may be larger than the distance between 2 and 3)."
+
 
   var goalWeightBins = map(function(x){ return Math.pow(x, goalExp)}, weightBins) // weightBins = [1, 2, 3, 4] --> [1, 4, 9, 16]
   var scaledGoalWeights = map(function(x){ return x / goalScale }, goalWeightBins) // e.g., vs: [1/20, 4/20, 9/20, 16/20], ps: [1, 1, 1, 1] (ps will change in diff goal_manipulation conditions)
@@ -177,12 +181,12 @@ var model = function(){
           socGoalWeights[condition_level] : uniformGoalWeights
        }
 
-       // TO DO: subset data here, to consider only CONDITION_NAME + CONDITION_LEVEL
+       // subset data here, to consider only CONDITION_NAME + CONDITION_LEVEL
        var df_state_condition_level = _.filter(df_state,
-         {condition: condition_name, condition_level: condition_level})
+         {condition_name: condition_name, condition_level: condition_level})
 
        var df_goals_condition_level = _.filter(df_goals,
-         {condition: condition_name, condition_level: condition_level}) //
+         {condition_name: condition_name, condition_level: condition_level}) //
 
       foreach(emotions, function(emo){
         foreach(utterances, function(utt){
@@ -211,7 +215,7 @@ var model = function(){
         var hasSocGoal = _.keys(modelSupport).indexOf("socGoal") > - 1
         var hasEmoComm = _.keys(modelSupport).indexOf("emoComm") > - 1
 
-        // display('has state = ' + hasState + '. hasInfGoal = ' +hasInfGoal + '. hasSocGoal = ' + hasSocGoal + '. hasEmoComm = ' + hasEmoComm)
+        //display('has state = ' + hasState + '. hasInfGoal = ' +hasInfGoal + '. hasSocGoal = ' + hasSocGoal + '. hasEmoComm = ' + hasEmoComm)
 
         // marginalize for specific task predictions
         var statePrediction = hasState ? marginalize(modelPrediction, "state") : null
@@ -219,35 +223,38 @@ var model = function(){
         var infGoalPrediction = hasInfGoal ? marginalize(modelPrediction, "infGoal"): null
 
         // OBSERVE DATA
-        display('state')
-        display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
+        //display('state')
+        //display(state_data)
         // observe state data
         if (hasState) {
           mapData({data: state_data}, function(d){
             var scr = statePrediction.score(d)
             scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
+            //display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo + statePrediction)
             observe(statePrediction, d)
           })
         }
 
-        // display('soc goal')
-        display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
+        //display('soc goal')
+        //display(socGoal_data)
+        //display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
         if (hasSocGoal) {
           mapData({data: socGoal_data}, function(d){
             var scr = socGoalPrediction.score(d)
             scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
+            //display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo + statePrediction)
             observe(socGoalPrediction, d)
           })
         }
 
-        // display('inf goal')
-        // display(infGoal_data)
-        display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo)
+        //display('inf goal')
+        //display(infGoal_data)
         // observe informational goal data
         if (hasInfGoal) {
           mapData({data: infGoal_data}, function(d){
             var scr = infGoalPrediction.score(d)
             scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
+            display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo + statePrediction)
             observe(infGoalPrediction, d)
           })
         }
