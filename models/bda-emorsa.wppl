@@ -254,7 +254,7 @@ var model = function(){
           mapData({data: infGoal_data}, function(d){
             var scr = infGoalPrediction.score(d)
             scr == -Infinity ? display(utt + " _ " + emo + " _ " + d) : null
-            display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo + statePrediction)
+            //display(condition_name + ' ' + condition_level + ' ' + utt + ' ' + emo + statePrediction)
             observe(infGoalPrediction, d)
           })
         }
@@ -340,8 +340,8 @@ var model = function(){
 
 
 // var totalIterations = 20000, lag =  4; // parameters ran
-// var totalIterations = 20000, lag =  1;
-var totalIterations = 5, lag =  1;
+ var totalIterations = 200, lag =  4;
+//var totalIterations = 5, lag =  1;
 var samples = totalIterations/(lag + 1), burn = totalIterations;// / 2;
 
 var outfile = 'bda-' + modelName + '-manipulatedConditions_' +
