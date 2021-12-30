@@ -93,8 +93,10 @@ var model = function(){
   // global free parameters
   var speakerOptimality = uniformDrift({a: 0, b: 20, width: 2})
 
-  var goalExp = modelHasWeights ? uniformDrift({a: 0, b: 5, width: 1}) : 1
-  var goalScale = modelHasWeights ? uniformDrift({a: 0, b: 100, width: 10}) : 1 // aug 11, 2021: mh not sure why we need goal scale? but maybe to add more flexibility to modulating the distance between points on goal scale
+
+  var alpha = modelHasWeights ?  uniformDrift({a: 0, b: 10, r: 0.5}) : 1 // dec 29, 2021: replace goalExp/goalScale params with alpha param from original politeness model
+  // var goalExp = modelHasWeights ? uniformDrift({a: 0, b: 5, width: 1}) : 1
+  // var goalScale = modelHasWeights ? uniformDrift({a: 0, b: 100, width: 10}) : 1 // aug 11, 2021: mh not sure why we need goal scale? but maybe to add more flexibility to modulating the distance between points on goal scale
 	// YW: from the CogSci paper: "We include two additional global parameters to the data analysis, 
 	// in which we model the goal-weight scale as an ordinal, but not necessarily linear, scale 
 	// (e.g., the psychological distance between goal ratings of 1 and 2 may be larger than the distance between 2 and 3)."
@@ -169,6 +171,7 @@ var model = function(){
 
       var parameters = {
         speakerOptimality: speakerOptimality,
+        alpha: alpha,
         literalMeanings: literalMeanings,
         weightBins: scaledGoalWeights,
         emoIsCommPrior: (condition_name == "emoIsComm_manipulation") ?
