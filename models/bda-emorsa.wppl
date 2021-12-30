@@ -102,8 +102,8 @@ var model = function(){
 	// (e.g., the psychological distance between goal ratings of 1 and 2 may be larger than the distance between 2 and 3)."
 
 
-  var goalWeightBins = map(function(x){ return Math.pow(x, goalExp)}, weightBins) // weightBins = [1, 2, 3, 4] --> [1, 4, 9, 16]
-  var scaledGoalWeights = map(function(x){ return x / goalScale }, goalWeightBins) // e.g., vs: [1/20, 4/20, 9/20, 16/20], ps: [1, 1, 1, 1] (ps will change in diff goal_manipulation conditions)
+  // var goalWeightBins = map(function(x){ return Math.pow(x, goalExp)}, weightBins) // weightBins = [1, 2, 3, 4] --> [1, 4, 9, 16]
+  // var scaledGoalWeights = map(function(x){ return x / goalScale }, goalWeightBins) // e.g., vs: [1/20, 4/20, 9/20, 16/20], ps: [1, 1, 1, 1] (ps will change in diff goal_manipulation conditions)
 
   // literal meaning parameters
   // prior is posterior after literal semantics task
@@ -173,7 +173,7 @@ var model = function(){
         speakerOptimality: speakerOptimality,
         alpha: alpha,
         literalMeanings: literalMeanings,
-        weightBins: scaledGoalWeights,
+        weightBins: weightBins,
         emoIsCommPrior: (condition_name == "emoIsComm_manipulation") ?
           emoIsCommPrior[condition_level] : 0.5,
         statePrior: (condition_name == "state_manipulation") ?
@@ -333,8 +333,9 @@ var model = function(){
   query.add([modelName, chain_num, "NA", "NA", "parameter", "socGoalPrior", "no_info", "sigma"], goalWeightPriors.no_info.soc_goal.sigma)
 
   if (modelHasWeights) {
-    query.add([modelName, chain_num, "NA", "NA", "parameter", "goalExp", "NA", "NA"], goalExp)
-    query.add([modelName, chain_num, "NA", "NA", "parameter", "goalScale", "NA", "NA"], goalScale)
+    query.add([modelName, chain_num, "NA", "NA", "parameter", "alpha", "NA", "NA"], alpha)
+    // query.add([modelName, chain_num, "NA", "NA", "parameter", "goalExp", "NA", "NA"], goalExp)
+    // query.add([modelName, chain_num, "NA", "NA", "parameter", "goalScale", "NA", "NA"], goalScale)
   }
 
   return query
@@ -347,7 +348,7 @@ var model = function(){
 //var totalIterations = 5, lag =  1;
 var samples = totalIterations/(lag + 1), burn = totalIterations;// / 2;
 
-var outfile = 'bda-' + modelName + '-manipulatedConditions_' +
+var outfile = 'bda-' + modelName + '-manipulatedConditions-socutilAlpha_' +
   totalIterations+ '_burn' + burn +
   '_lag' + lag + '_chain' + chain_num + '.csv'
 
