@@ -1,0 +1,461 @@
+---
+title: "emorsa_bda"
+author: "MH Tessler & Yang Wu"
+date: "9/17/2021"
+output:
+  html_document:
+    highlight: pygments
+    theme: flatly
+    toc: yes
+    toc_float: true
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r libaries, message=FALSE, results='hide', warning=FALSE}
+library(tidyverse)
+library(tidyboot)
+library(ggplot2)
+library(ggthemes)
+library(knitr)
+library(coda)
+library(viridis)
+library(here)
+library(patchwork)
+theme_set(theme_few())
+```
+
+```{r helper fns}
+estimate_mode <- function(s) {
+  d <- density(s)
+  return(d$x[which.max(d$y)])
+}
+hpd_upper <- function(s){
+  m <- HPDinterval(mcmc(s))
+  return(m["var1","upper"])
+}
+hpd_lower <- function(s){
+  m <- HPDinterval(mcmc(s))
+  return(m["var1","lower"])
+}
+
+count_summary_fn <- function(x) x %>%
+  summarize(n = n()) %>%
+  mutate(stat = n / sum(n))
+
+mean_ci_funs <- list("ci_lower" = ci_lower, "mean" = mean, "ci_upper" = ci_upper)
+```
+
+# Load human data
+
+## State
+
+```{r}
+h_state <- read_csv(here("/data/clean_data_true_state.csv"))
+
+h_state_summary <- h_state %>%
+  rename(emo = exp, 
+         state = response, 
+         manipulation = condition_name, 
+         manipulation_level = condition_level) %>%
+  mutate(manipulation_level = ifelse(manipulation_level=="inf_goal", "inf", manipulation_level),
+         manipulation_level = ifelse(manipulation_level=="soc_goal", "soc", manipulation_level))%>%
+  group_by(manipulation, manipulation_level, utt, emo, state) %>%
+  tidyboot(summary_function = count_summary_fn,
+          statistics_functions = function(x) x %>%
+          summarise(across(stat, mean_ci_funs, .names = "{.fn}"))) %>%
+  mutate(condition = "human")
+```
+
+## Goals
+
+```{r}
+h_goal <- read_csv(here("/data/clean_data_goals.csv"))
+
+h_goal_summary <- h_goal %>%
+  rename(emo = exp,
+         manipulation = condition_name, 
+         manipulation_level = condition_level) %>%
+  mutate(manipulation_level = ifelse(manipulation_level=="inf_goal", "inf", manipulation_level),
+         manipulation_level = ifelse(manipulation_level=="soc_goal", "soc", manipulation_level))%>%
+  group_by(manipulation, manipulation_level, utt, emo, question, response) %>%
+  tidyboot(summary_function = count_summary_fn,
+           statistics_functions = function(x) x %>%
+           summarise(across(stat, mean_ci_funs, .names = "{.fn}")))%>%
+  mutate(condition = "human")%>%
+  rename(rating = 'response')
+
+h_inf_summary <- h_goal_summary[h_goal_summary$question=="informational goal",]
+h_soc_summary <- h_goal_summary[h_goal_summary$question=="social goal",]
+```
+
+# Load model results
+
+```{r}
+results_path <- "models/bda_results/"
+model.files <- list.files(
+      path = paste(here(), results_path, sep = "/"),
+      pattern = "bda-M"
+    )
+df.m <- map_dfr(model.files, function(model.file){
+    read_csv(here(paste(results_path, model.file, sep = "")),
+             col_types = cols(
+                      iter = col_double(),
+                      model = col_character(),
+                      chain = col_double(),
+                      manipulation = col_character(),
+                      manipulation_level = col_character(),
+                      parameter = col_character(),
+                      utt = col_character(),
+                      emo = col_character(),
+                      value = col_character(),
+                      prob = col_double(),
+                      score = col_double()
+                    ))
+})
+```
+
+# Model Evaluation
+## Global parameters
+
+```{r fig13, fig.height=5, fig.width=10}
+df.m %>%
+  filter(parameter == "parameter", is.na(emo)) %>%
+  ggplot(., aes(x = prob))+
+  geom_histogram(position = position_dodge())+
+  facet_grid(cols = vars(utt), scales = "free_x")
+# ggsave(here("/models/figures/mb7_global_parameters.pdf"), width = 8, height = 5)
+```
+
+### Summary
+
+```{r}
+df.m %>%
+  filter(parameter == "parameter", is.na(emo)) %>%
+  group_by(utt) %>%
+  summarize(
+    MAP = estimate_mode(prob),
+    cred_upper = hpd_upper(prob),
+    cred_lower = hpd_lower(prob)
+  ) -> df_parameter_summary
+
+
+df_parameter_summary %>%
+  kable(.)
+```
+
+goalExp is bimodal!
+Plot the correlation between goalExp and speakerOptimality
+```{r}
+df.m %>%
+  filter(parameter == "parameter", is.na(emo)) %>%
+  spread(key = utt, value = prob) %>%
+  ggplot(., aes(x = goalExp, speakerOptimality))+
+  geom_point()
+```
+
+## Prior parameters
+
+```{r fig14, fig.height=5, fig.width=10}
+df.m %>%
+  filter(parameter == "parameter", is.na(emo) == FALSE) %>%
+  ggplot(., aes(x = prob))+
+  geom_histogram(position = position_dodge())+
+  facet_grid(cols = vars(utt, emo), rows = vars(value), scales = "free_x")
+# ggsave(here("/models/figures/mb7_prior_parameters.pdf"), width = 20, height = 5)
+```
+
+### Summary
+
+```{r}
+df.m %>%
+  filter(parameter == "parameter", is.na(emo) == FALSE) %>%
+  group_by(utt, emo, value) %>%
+  summarize(
+    MAP = estimate_mode(prob),
+    cred_upper = hpd_upper(prob),
+    cred_lower = hpd_lower(prob)
+  ) %>%
+  rename(prior = 'utt', level = 'emo') -> df_parameter_summary
+
+
+df_parameter_summary %>%
+  kable(.)
+```
+
+
+## State inference
+
+```{r}
+df_state <- df.m %>%
+  filter(parameter == "state") %>%
+  mutate(state = as.numeric(value)) %>%
+  select(-value)
+
+df_state_summary <- df_state %>%
+  group_by(manipulation, manipulation_level, utt, emo, state) %>%
+  summarize(
+    mean = estimate_mode(prob),
+    ci_upper = hpd_upper(prob),
+    ci_lower = hpd_lower(prob)
+  ) %>%
+  mutate(condition = "mb7")
+
+# combine model with human
+md_state_long <- rbind(df_state_summary, h_state_summary)
+# md_state_wide <- md_state_long %>%
+#   select(-n, -empirical_n, -empirical_stat) %>%
+#   reshape2::dcast(., manipulation + manipulation_level + utt + emo + state ~ condition, value.var= c("mean", "ci_upper"))
+```
+
+### line plot
+```{r fig20, fig.height=8, fig.width=12}
+md_state_long %>%
+  unite("utt_emo", utt, emo) %>%
+  ggplot(., aes(x=state, y=mean, group=condition, color=condition)) +
+  geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width=.1, position=position_dodge(0.05)) +
+  geom_line(aes(linetype=condition))+
+  geom_point(aes(shape=condition))+
+  scale_color_manual(values=c('#E69F00', '#999999'))+
+  ylim(0,1)+
+  facet_grid(vars(utt_emo), vars(manipulation, manipulation_level))+
+  theme(legend.position="bottom")
+```
+
+### scatterplots
+```{r fig6, fig.height=8, fig.width=10}
+df_state_summary2 <- df_state %>%
+  group_by(manipulation, manipulation_level, utt, emo, state) %>%
+  summarize(
+    MAP = estimate_mode(prob),
+    cred_upper = hpd_upper(prob),
+    cred_lower = hpd_lower(prob)
+  ) 
+md_state_wide <- left_join(df_state_summary2, h_state_summary)
+md_state_wide %>%
+  unite("utt_emo", utt, emo) %>%
+  mutate(
+    mean = ifelse(is.na(mean), 0, mean),
+    ci_lower = ifelse(is.na(ci_lower), 0, ci_lower),
+    ci_upper = ifelse(is.na(ci_upper), 0, ci_upper),
+    state = factor(state)
+  ) %>%
+  #group_by(model) %>%
+  summarize(
+    mse = mean((MAP - mean)^2),
+    r = cor(MAP, mean),
+    r2 = r^2
+  ) -> md_state_corr_table
+
+#write_csv(md_state_corr_table, "../state_correlations.csv")
+
+md_state_wide %>%
+  unite("utt_emo", utt, emo) %>%
+  mutate(
+    mean = ifelse(is.na(mean), 0, mean),
+    ci_lower = ifelse(is.na(ci_lower), 0, ci_lower),
+    ci_upper = ifelse(is.na(ci_upper), 0, ci_upper),
+    state = factor(state)
+  ) %>%
+  ggplot(., aes( x = MAP, xmin = cred_lower, xmax = cred_upper,
+                      y = mean, ymin = ci_lower, ymax = ci_upper,
+                 shape = utt_emo, color = state))+
+  geom_abline(intercept = 0, slope = 1, alpha = 0.3, linetype = 2)+
+  geom_linerange()+
+  geom_text(data = md_state_corr_table, x = 0.15, y = 0.93,
+            aes(label = paste("r=", round(r, 2), sep= "")),
+            inherit.aes = F)+
+  ggstance::geom_linerangeh()+
+  geom_point()+
+  scale_color_viridis(discrete = T)+
+  #xlim(0, 1)+
+  #ylim(0, 1)+
+  coord_fixed()+
+  facet_wrap(vars(manipulation, manipulation_level), ncol = 3)+
+  scale_y_continuous(limits = c(0, 1), breaks = c(0, 1))+
+  scale_x_continuous(limits = c(0, 1), breaks = c(0, 1))+
+  theme(legend.position = 'right')+
+  labs(
+    x = "Model Predicted Probability",
+    y = "Human Proportion Selected"
+  )
+# ggsave(filename = "bda_results/figs/bda_scatters_state_21models_cogsci.pdf", width = 18, height = 5)
+```
+### correlation table
+```{r corr table state}
+md_state_corr_table %>%
+  kable()
+```
+
+## infGoal inference
+
+```{r}
+df_goal <- df.m %>%
+  filter(parameter %in% c("socGoal", "infGoal")) %>%
+  mutate(rating = as.numeric(value)) %>%
+  select(-value)
+
+df_goal_summary <- df_goal %>%
+  group_by(manipulation, manipulation_level, parameter, utt, emo, rating) %>%
+  summarize(
+    mean = estimate_mode(prob),
+    ci_upper = hpd_upper(prob),
+    ci_lower = hpd_lower(prob)
+  ) %>%
+  mutate(condition = "mb7")
+
+df_inf_summary <- df_goal_summary[df_goal_summary$parameter=="infGoal",]
+df_soc_summary <- df_goal_summary[df_goal_summary$parameter=="socGoal",]
+
+# combine model with human
+md_inf_long <- rbind(df_inf_summary, h_inf_summary)
+```
+
+### line plot
+```{r fig21, fig.height=8, fig.width=12}
+md_inf_long %>%
+  unite("utt_emo", utt, emo) %>%
+  ggplot(., aes(x=rating, y=mean, group=condition, color=condition)) +
+  geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width=.1, position=position_dodge(0.05)) +
+  geom_line(aes(linetype=condition))+
+  geom_point(aes(shape=condition))+
+  scale_color_manual(values=c('#E69F00', '#999999'))+
+  ylim(0,1)+
+  facet_grid(vars(utt_emo), vars(manipulation, manipulation_level))+
+  theme(legend.position="bottom")
+```
+
+### scatterplots
+
+```{r fig7, fig.height=8, fig.width=10}
+df_goal_summary2 <- df_goal %>%
+  group_by(manipulation, manipulation_level, parameter, utt, emo, rating) %>%
+  summarize(
+    MAP = estimate_mode(prob),
+    cred_upper = hpd_upper(prob),
+    cred_lower = hpd_lower(prob)
+  ) %>%
+  mutate(question = factor(parameter, levels = c("infGoal", "socGoal"),
+                            labels = c("informational goal", "social goal")))
+
+md_goals_wide <- left_join(
+  df_goal_summary2, h_goal_summary
+)
+
+md_goals_wide %>%
+  unite("utt_emo", utt, emo) %>%
+  mutate(
+    mean = ifelse(is.na(mean), 0, mean),
+    ci_lower = ifelse(is.na(ci_lower), 0, ci_lower),
+    ci_upper = ifelse(is.na(ci_upper), 0, ci_upper)
+  ) %>%
+  #group_by(model, question) %>%
+  group_by(manipulation, manipulation_level, question) %>%
+  summarize(
+    n = n(),
+    mse = mean((MAP - mean)^2),
+    r = cor(MAP, mean),
+    r2 = r^2
+  ) -> md_goal_corr_table
+
+# write_csv(md_goal_corr_table, "../goal_correlations.csv")
+
+md_goals_wide %>%
+  filter(parameter=="infGoal") %>%
+  unite("utt_emo", utt, emo) %>%
+  mutate(
+    mean = ifelse(is.na(mean), 0, mean),
+    ci_lower = ifelse(is.na(ci_lower), 0, ci_lower),
+    ci_upper = ifelse(is.na(ci_upper), 0, ci_upper),
+    rating = factor(rating)
+  ) %>%
+  ggplot(., aes( x = MAP, xmin = cred_lower, xmax = cred_upper,
+                      y = mean, ymin = ci_lower, ymax = ci_upper,
+                 shape = utt_emo, color = rating))+
+  geom_abline(intercept = 0, slope = 1, alpha = 0.3, linetype = 2)+
+  geom_linerange()+
+  geom_text(data = md_goal_corr_table[md_goal_corr_table$question=="informational goal",], x = 0.15, y = 0.96,
+            aes(label = paste("r=", round(r, 2), sep= "")),
+            inherit.aes = F)+
+  ggstance::geom_linerangeh()+
+  geom_point()+
+  coord_fixed()+
+  #facet_grid(question~model)+
+  facet_wrap(vars(manipulation, manipulation_level, nrows = 3))+
+  scale_y_continuous(limits = c(0, 1), breaks = c(0, 1))+
+  scale_x_continuous(limits = c(0, 1), breaks = c(0, 1))+
+  theme(legend.position = 'right')+
+  labs(
+    x = "Model Predicted Probability",
+    y = "Human Proportion Selected"
+  )
+#ggsave(filename = "bda_results/figs/bda_scatters_goal_21models_cogsci.pdf", width = 24, height = 4.5)
+```
+
+### correlation table
+```{r corr table infGoal}
+md_goal_corr_table[md_goal_corr_table$question=="informational goal",] %>%
+  kable()
+```
+
+## socGoal inference
+```{r}
+# combine model with human
+md_soc_long <- rbind(df_soc_summary, h_soc_summary)
+```
+
+### line plot
+```{r fig22, fig.height=8, fig.width=12}
+md_soc_long %>%
+  unite("utt_emo", utt, emo) %>%
+  ggplot(., aes(x=rating, y=mean, group=condition, color=condition)) +
+  geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width=.1, position=position_dodge(0.05)) +
+  geom_line(aes(linetype=condition))+
+  geom_point(aes(shape=condition))+
+  scale_color_manual(values=c('#E69F00', '#999999'))+
+  ylim(0,1)+
+  facet_grid(vars(utt_emo), vars(manipulation, manipulation_level))+
+  theme(legend.position="bottom")
+```
+
+### scatterplots
+```{r fig8, fig.height=8, fig.width=10}
+md_goals_wide %>%
+  filter(parameter=="socGoal") %>%
+  unite("utt_emo", utt, emo) %>%
+  mutate(
+    mean = ifelse(is.na(mean), 0, mean),
+    ci_lower = ifelse(is.na(ci_lower), 0, ci_lower),
+    ci_upper = ifelse(is.na(ci_upper), 0, ci_upper),
+    rating = factor(rating)
+  ) %>%
+  ggplot(., aes( x = MAP, xmin = cred_lower, xmax = cred_upper,
+                      y = mean, ymin = ci_lower, ymax = ci_upper,
+                 shape = utt_emo, color = rating))+
+  geom_abline(intercept = 0, slope = 1, alpha = 0.3, linetype = 2)+
+  geom_linerange()+
+  geom_text(data = md_goal_corr_table[md_goal_corr_table$question=="social goal",], x = 0.15, y = 0.96,
+            aes(label = paste("r=", round(r, 2), sep= "")),
+            inherit.aes = F)+
+  ggstance::geom_linerangeh()+
+  geom_point()+
+  coord_fixed()+
+  #facet_grid(question~model)+
+  facet_wrap(vars(manipulation, manipulation_level, nrows = 3))+
+  scale_y_continuous(limits = c(0, 1), breaks = c(0, 1))+
+  scale_x_continuous(limits = c(0, 1), breaks = c(0, 1))+
+  theme(legend.position = 'right')+
+  labs(
+    x = "Model Predicted Probability",
+    y = "Human Proportion Selected"
+  )
+```
+### correlation table
+```{r corr table socGoal}
+md_goal_corr_table[md_goal_corr_table$question=="social goal",] %>%
+  kable()
+```
